@@ -13,6 +13,7 @@ function Home(){
         <Product id={3} />
         <Product id={4} />
         <Product id={5} />
+        <br></br>
         <form onSubmit={(e) => {
             e.preventDefault()
             console.log(texto)
