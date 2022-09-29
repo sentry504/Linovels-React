@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
+import React from 'react'
 import ReactDom from 'react-dom/client'
-import 'firebase/app'
+import 'firebase'
 import App from './App'
 //import * as serviceWorker from './serviceWorker'
 

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Firestore from '../firebase'
 
 export function FormWithFirebaseComponent() {
 
