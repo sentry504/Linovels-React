@@ -1,6 +1,8 @@
-function HomePage(){
-    return(
-        <h1>HomePage</h1>
+import FormWithFirebase from '../components/FormWithFirebase'
+
+function HomePage() {
+    return (
+        <FormWithFirebase />
     )
 }
 export default HomePage

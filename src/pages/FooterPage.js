@@ -13,17 +13,16 @@ export default function FooterPage() {
                     <div className="col-md-3 mb-md-0 mb-3">
                         <h5 className="text-uppercase">Links</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#!">Link 1</a></li>
-                            <li><a href="#!">Link 2</a></li>
-                            <li><a href="#!">Link 3</a></li>
-                            <li><a href="#!">Link 4</a></li>
+                            <li><a className="footer" href="#!">About</a></li>
+                            <li><a className="footer" href="#!">Contact</a></li>
+                            <li><a className="footer" href="#!">Privacity</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div className="footer-copyright text-center py-3">© 2022 copyright: 
-                <a className="copyright" onClick={document.open('https://gist.github.com/sentry504','_blank')}>  Linovels  </a>
+            <div className="footer-copyright text-center py-3">© 2022 <strong>Copyright:  </strong>
+                <a className="footer" href='https://gist.github.com/sentry504'>Linovels</a>
             </div>
 
         </footer>

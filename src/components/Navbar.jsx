@@ -7,7 +7,7 @@ export function NavbarComponent() {
     return (
         <Navbar bg='dark' variant='dark' sticky="top" expand="sm" collapseOnSelect>
             <Navbar.Brand>
-                <strong classname= 'navbar-brand'>Linovels</strong>
+                <strong className= 'navbar-brand'>Linovels</strong>
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>
