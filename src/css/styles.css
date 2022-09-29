@@ -6,3 +6,11 @@ body{
 .navbar-brand{
     padding-left: 1rem;
 }
+
+.copyright{
+    color: #fff;
+}
+.copyright:hover{
+    color: #46607e;
+    cursor: pointer;;
+}

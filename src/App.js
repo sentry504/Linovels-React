@@ -1,5 +1,7 @@
 import {BrowserRouter,Routes, Route} from 'react-router-dom'
 import { NavbarComponent } from "./components/Navbar.jsx"
+import FooterPage from './pages/FooterPage'
+
 import HomePage from './pages/HomePage'
 import Novelas from './pages/NovelasPage'
 import UsersPage from './pages/UsersPage'
@@ -20,6 +22,7 @@ function App(){
                 <Route path='/user/:id' element= {<UserPage/>} />
                 <Route path='*' element= {<NotFoundPage/>} />
             </Routes>
+            <FooterPage />
         </BrowserRouter>
     )
 }
