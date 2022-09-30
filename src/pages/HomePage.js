@@ -1,8 +1,11 @@
-import FormWithFirebase from '../components/FormWithFirebase'
+import {Link} from 'react-router-dom'
 
 function HomePage() {
     return (
-        <FormWithFirebase />
+        <>
+        <h3>Home</h3>
+        <Link to="../">Prologo</Link>
+        </>
     )
 }
 export default HomePage

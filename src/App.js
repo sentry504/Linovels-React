@@ -6,8 +6,8 @@ import FooterPage from './pages/FooterPage'
 //Importacion de paginas de la app
 import HomePage from './pages/HomePage'
 import Novelas from './pages/NovelasPage'
-import UsersPage from './pages/UsersPage'
-import UserPage from './pages/UserPage'
+import CuentosPage from './pages/CuentosPage'
+import NovelaPage from './pages/NovelaPage'
 
 import NotFoundPage from './pages/NotFoundPage'
 
@@ -23,8 +23,8 @@ function App(){
             <Routes>
                 <Route path='/home' element= {<HomePage/>} />
                 <Route path='/novelas' element= {<Novelas/>} />
-                <Route path='/users' element= {<UsersPage/>} />
-                <Route path='/user/:id' element= {<UserPage/>} />
+                <Route path='/cuentos' element= {<CuentosPage/>} />
+                <Route path='/novela/:id' element= {<NovelaPage/>} />
                 <Route path='*' element= {<NotFoundPage/>} />
             </Routes>
             <FooterPage />

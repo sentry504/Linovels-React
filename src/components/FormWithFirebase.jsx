@@ -1,7 +1,6 @@
 import { useState } from "react";
-import Firestore from '../firebase'
 
-export function FormWithFirebaseComponent() {
+export default function FormWithFirebaseComponent() {
 
     const initialStateValues= {
         url:"",
