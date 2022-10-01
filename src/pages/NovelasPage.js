@@ -1,4 +1,5 @@
-function NovelasPage(){
+function  NovelasPage(){
+
     return(
         <h1>NovelasPage</h1>
     )

@@ -1,10 +1,10 @@
-import {Link} from 'react-router-dom'
+import Crud from '../components/Crud'
 
 function HomePage() {
     return (
         <>
         <h3>Home</h3>
-        <Link to="../">Prologo</Link>
+        <Crud />
         </>
     )
 }
