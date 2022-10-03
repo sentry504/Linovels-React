@@ -1,7 +1,7 @@
 //Importacion 
 import {BrowserRouter,Routes, Route} from 'react-router-dom'
 import { NavbarComponent } from "./components/Navbar.jsx"
-import FooterPage from './pages/FooterPage'
+import FooterComponent from './components/FooterComponent'
 
 //Importacion de paginas de la app
 import HomePage from './pages/HomePage'
@@ -27,7 +27,7 @@ function App(){
                 <Route path='/novela/:id' element= {<NovelaPage/>} />
                 <Route path='*' element= {<NotFoundPage/>} />
             </Routes>
-            <FooterPage />
+            <FooterComponent />
         </BrowserRouter>
     )
 }
