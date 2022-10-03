@@ -1,22 +1,45 @@
-{
-    "Overlord I" : [
-        {"capitulo" : {
-            "id" : 1,
-            "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
-            "server2" : "",
-            "server3" : "",
-            "server4" : ""
-         }
-        }
-    ],
-    "Overlord II" : [
-        {"capitulo" : {
-            "id" : 1,
-            "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
-            "server2" : "",
-            "server3" : "",
-            "server4" : ""
-         }
-        }
-    ]
-}
+[
+    {
+        "anime" : "Overlord",
+        "temporada" : [
+            {
+                "ID":"I", 
+                "capitulos":[
+                    {
+                        "id" : 1,
+                        "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                        "server2" : "",
+                        "server3" : "",
+                        "server4" : ""
+                    },
+                    {
+                        "id" : 2,
+                        "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                        "server2" : "",
+                        "server3" : "",
+                        "server4" : ""
+                    }
+                ]
+            },
+            {
+                "ID":"II", 
+                "capitulos":[
+                    {
+                        "id" : 1,
+                        "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                        "server2" : "",
+                        "server3" : "",
+                        "server4" : ""
+                    },
+                    {
+                        "id" : 2,
+                        "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                        "server2" : "",
+                        "server3" : "",
+                        "server4" : ""
+                    }
+                ]
+            }
+        ]
+    }
+]
