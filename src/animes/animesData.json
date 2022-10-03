@@ -41,5 +41,48 @@
                 ]
             }
         ]
+    },
+    {
+        "anime" : "Tensei Shitara Slime Datta Ken",
+        "temporada" : [
+            {
+                "ID":"I", 
+                "capitulos":[
+                    {
+                        "id" : 1,
+                        "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                        "server2" : "",
+                        "server3" : "",
+                        "server4" : ""
+                    },
+                    {
+                        "id" : 2,
+                        "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                        "server2" : "",
+                        "server3" : "",
+                        "server4" : ""
+                    }
+                ]
+            },
+            {
+                "ID":"II", 
+                "capitulos":[
+                    {
+                        "id" : 1,
+                        "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                        "server2" : "",
+                        "server3" : "",
+                        "server4" : ""
+                    },
+                    {
+                        "id" : 2,
+                        "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                        "server2" : "",
+                        "server3" : "",
+                        "server4" : ""
+                    }
+                ]
+            }
+        ]
     }
 ]
