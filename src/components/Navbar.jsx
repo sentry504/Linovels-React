@@ -16,7 +16,7 @@ export function NavbarComponent() {
                     <NavLink className="nav-link" to='./novelas'>Novelas</NavLink>
                     <NavDropdown title='Animes'>
                         <NavLink className="nav-item nav-link" to='./emision'> Emision</NavLink>
-                        <NavLink className="nav-item nav-link" to='./listado'> Listado</NavLink>
+                        <NavLink className="nav-item nav-link" to='../animes'> Listado</NavLink>
                         <NavDropdown.Divider />
                         <NavLink className="link nav-link" to='./proximos'> Proximos</NavLink>
                     </NavDropdown>

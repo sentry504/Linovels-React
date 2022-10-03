@@ -5,9 +5,15 @@ import FooterComponent from './components/FooterComponent'
 
 //Importacion de paginas de la app
 import HomePage from './pages/HomePage'
-import Novelas from './pages/NovelasPage'
 import CuentosPage from './pages/CuentosPage'
-import NovelaPage from './pages/NovelaPage'
+import Novelas from './novelas/NovelasPage'
+import NovelaPage from './novelas/NovelaPage'
+
+//Seccion animes
+import AnimesPage from './animes/AnimesPage'
+import AnimePage from './animes/AnimePage'
+import CapituloPage from './animes/CapituloPage'
+
 
 import NotFoundPage from './pages/NotFoundPage'
 
@@ -24,7 +30,10 @@ function App(){
                 <Route path='/home' element= {<HomePage/>} />
                 <Route path='/novelas' element= {<Novelas/>} />
                 <Route path='/cuentos' element= {<CuentosPage/>} />
-                <Route path='/novela/:id' element= {<NovelaPage/>} />
+                <Route path='/novelas/:id' element= {<NovelaPage/>} />
+                <Route path='/animes' element= {<AnimesPage/>} />
+                <Route path='/animes/:id' element= {<AnimePage/>} />
+                <Route path='/animes/:id/:cap' element= {<CapituloPage/>} />
                 <Route path='*' element= {<NotFoundPage/>} />
             </Routes>
             <FooterComponent />
