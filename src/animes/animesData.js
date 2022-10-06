@@ -34,17 +34,21 @@ const animes=[
                 "capitulos":[
                     {
                         "id" : 1,
-                        "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
-                        "server2" : "",
-                        "server3" : "",
-                        "server4" : ""
+                        "Links" : [{
+                            "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
                     },
                     {
                         "id" : 2,
-                        "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
-                        "server2" : "",
-                        "server3" : "",
-                        "server4" : ""
+                        "Links" : [{
+                            "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
                     }
                 ]
             }
@@ -58,17 +62,21 @@ const animes=[
                 "capitulos":[
                     {
                         "id" : 1,
-                        "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
-                        "server2" : "",
-                        "server3" : "",
-                        "server4" : ""
+                        "Links" : [{
+                            "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
                     },
                     {
                         "id" : 2,
-                        "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
-                        "server2" : "",
-                        "server3" : "",
-                        "server4" : ""
+                        "Links" : [{
+                            "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
                     }
                 ]
             },
@@ -77,17 +85,21 @@ const animes=[
                 "capitulos":[
                     {
                         "id" : 1,
-                        "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
-                        "server2" : "",
-                        "server3" : "",
-                        "server4" : ""
+                        "Links" : [{
+                            "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
                     },
                     {
                         "id" : 2,
-                        "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
-                        "server2" : "",
-                        "server3" : "",
-                        "server4" : ""
+                        "Links" : [{
+                            "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
                     }
                 ]
             }

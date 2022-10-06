@@ -26,7 +26,7 @@ function App(){
         <BrowserRouter>
             <NavbarComponent />
             <Routes>
-                <Route path='/home' element= {<HomePage/>} />
+                <Route path='/home' element= {<HomePage></HomePage>} />
                 <Route path='/novelas' element= {<Novelas/>} />
                 <Route path='/cuentos' element= {<CuentosPage/>} />
                 <Route path='/novelas/:id' element= {<NovelaPage/>} />
