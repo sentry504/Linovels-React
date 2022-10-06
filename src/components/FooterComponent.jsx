@@ -1,7 +1,18 @@
+import {FcCopyright} from 'react-icons/fc'
+import {FaGithubAlt} from 'react-icons/fa'
 export default function FooterPage() {
     return (
-        <footer className="page-footer fixed-botton font-small blue pt-4">
-            <div className="container-fluid text-center text-md-left">
+        <footer className="page-footer fixed-botton text-wrap font-small blue pt-4">
+            <div className="footer-copyright text-center py-3">
+                <FcCopyright size="30px"></FcCopyright>
+                <strong>opyright</strong>  2022: <br/>
+                <FaGithubAlt/><a className="footer" href='https://gist.github.com/sentry504'> Linovels </a>
+            </div>
+        </footer>
+    )
+}
+/* 
+<div className="container-fluid text-center text-md-left">
                 <div className="row">
                     <div className="col-md-8 mt-md-0 mt-3">
                         <h5 className="text-uppercase">Linovels</h5>
@@ -21,10 +32,4 @@ export default function FooterPage() {
                 </div>
             </div>
 
-            <div className="footer-copyright text-center py-3">© 2022 <strong>Copyright:  </strong>
-                <a className="footer" href='https://gist.github.com/sentry504'>Linovels</a>
-            </div>
-
-        </footer>
-    )
-}
+*/
