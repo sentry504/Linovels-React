@@ -1,36 +1,70 @@
-body{
+body {
     background-color: #182029;
 }
 
-footer{
-     position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-    color: white;
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    color: rgb(20, 18, 18);
 }
 
-.navbar-brand{
+.navbar-brand {
     padding-left: 1rem;
 }
 
-.footer{
-    color: #fff;
+.footer {
+    color: rgb(14, 11, 11);
 }
 
-.footer:hover{
+.footer:hover {
     color: #46607e;
-    cursor: pointer;;
+    cursor: pointer;
+    ;
 }
-.seccion{
+
+.seccion {
     padding: 1.5rem;
 }
 
-.portada{
-    width:100%;
-    max-height: min-content;  
+.portada {
+    width: 100%;
+    max-height: min-content;
 }
 
-.link{
+.link {
     text-decoration: none;
+}
+
+.cont-imagen{
+    overflow: hidden;
+}
+
+.encabezado {
+    background: rgb(20, 23, 31);
+    background: -moz-linear-gradient(90deg, rgba(20, 23, 31, 1) 0%, rgba(38, 43, 54, 1) 79%, rgba(51, 60, 73, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(20, 23, 31, 1) 0%, rgba(38, 43, 54, 1) 79%, rgba(51, 60, 73, 1) 100%);
+    background: linear-gradient(90deg, rgba(20, 23, 31, 1) 0%, rgba(38, 43, 54, 1) 79%, rgba(51, 60, 73, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#14171f", endColorstr="#333c49", GradientType=1);
+}
+
+.card {
+    background: rgb(32, 37, 50);
+    background: -moz-linear-gradient(90deg, rgba(32, 37, 50, 1) 0%, rgba(66, 78, 94, 1) 50%, rgba(32, 37, 50, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(32, 37, 50, 1) 0%, rgba(66, 78, 94, 1) 50%, rgba(32, 37, 50, 1) 100%);
+    background: linear-gradient(90deg, rgba(32, 37, 50, 1) 0%, rgba(66, 78, 94, 1) 50%, rgba(32, 37, 50, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202532", endColorstr="#202532", GradientType=1);
+}
+
+.nav-link{
+    border-radius: 0px 0px 10px 10px;
+}
+
+.portada{
+    border-radius: 10px;
+}
+
+.comentarios{
+    margin-bottom: 30px;
 }

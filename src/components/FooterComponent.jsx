@@ -5,7 +5,7 @@ export default function FooterPage() {
         <footer className="page-footer fixed-botton text-wrap font-small blue pt-4">
             <div className="footer-copyright text-center py-3">
                 <FcCopyright size="30px"></FcCopyright>
-                <strong>opyright</strong>  2022: <br/>
+                <strong>opyright</strong>  2022 <br/>
                 <FaGithubAlt/><a className="footer" href='https://gist.github.com/sentry504'> Linovels </a>
             </div>
         </footer>

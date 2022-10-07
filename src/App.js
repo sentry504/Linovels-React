@@ -26,13 +26,14 @@ function App(){
         <BrowserRouter>
             <NavbarComponent />
             <Routes>
-                <Route path='/home' element= {<HomePage></HomePage>} />
+                <Route path="/" element={<HomePage/>}/>
+                <Route path="/home" element= {<HomePage/>}></Route>
                 <Route path='/novelas' element= {<Novelas/>} />
                 <Route path='/cuentos' element= {<CuentosPage/>} />
                 <Route path='/novelas/:id' element= {<NovelaPage/>} />
                 <Route path='/animes' element= {<AnimesPage/>} />
                 <Route path='/animes/:id/' element= {<AnimePage/>} />
-                <Route path='/animes/:id/:t/:cap' element= {<CapituloPage/>} />
+                <Route path='/animes/:id/:temp/:cap' element= {<CapituloPage/>} />
                 <Route path='*' element= {<NotFoundPage/>} />
             </Routes>
         </BrowserRouter>

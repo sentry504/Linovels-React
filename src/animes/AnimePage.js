@@ -15,7 +15,7 @@ function AnimePage() {
                 return(
                     <section className='seccion'>
                         <Card bg='dark'>
-                        <h2 className='px-2' key={index}><strong>{dato.anime}</strong></h2>
+                        <h2 className='encabezado px-4 py-2' key={index}><strong>{dato.anime}</strong></h2>
                         <Card body>
                         <Container fluid>
                             <Row>

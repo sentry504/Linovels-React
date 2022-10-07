@@ -21,7 +21,7 @@ const animes=[
                     {
                         "id" : 2,
                         "Links" : [{
-                            "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                            "server1" : "https://www.yourupload.com/embed/51gTh4X12nq6",
                             "server2" : "",
                             "server3" : "",
                             "server4" : ""
