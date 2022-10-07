@@ -1,8 +1,8 @@
-import { Container, Card, Tabs, Tab } from 'react-bootstrap';
+import { Container, Card, Tabs, Tab, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import Data from '../animes/animesData'
 
-function Reproductor({ titulo, temporada, capitulo, poster }) {
+function Reproductor({ titulo, temporada, capitulo }) {
     const filtrado = Data && Data.filter((filtro) => filtro.anime === titulo)
     const previo = useNavigate()
     const indice = useNavigate()
@@ -20,9 +20,20 @@ function Reproductor({ titulo, temporada, capitulo, poster }) {
         indice(`/animes/${titulo}`, { state: true })
     }
 
+    function incrustado(vinculo) {
+        return (<iframe
+            className='video px-1'
+            width="100%" height="450px"
+            src={vinculo}
+            title={titulo}
+            frameborder="0"
+            scrolling="no"
+            allowfullscreen="">
+        </iframe>)
+    }
+
     return (
         <section className='fondo'>
-            
             {
                 filtrado.map((dato) => {
                     return (
@@ -31,53 +42,20 @@ function Reproductor({ titulo, temporada, capitulo, poster }) {
                                 (dato.ID === temporada) ? dato.capitulos.map((dato) => {
                                     return (
                                         (dato.id === parseInt(capitulo)) ? dato.Links.map((Links) => {
-                                            console.log("servidor.:", Links.server1)
                                             return (
                                                 <Card bg='secondary'>
                                                     <Tabs>
                                                         <Tab eventKey="1" title="YourUpload">
-                                                            <iframe
-                                                                className='video px-1'
-                                                                width="100%" height="450px"
-                                                                src={Links.server1}
-                                                                title={titulo}
-                                                                frameborder="0"
-                                                                scrolling="no"
-                                                                allowfullscreen="">
-                                                            </iframe>
+                                                            {incrustado(Links.server1)}
                                                         </Tab>
                                                         <Tab eventKey="2" title="MEGA">
-                                                            <iframe
-                                                                className='video px-1'
-                                                                width="100%" height="450px"
-                                                                src={Links.server2}
-                                                                title={titulo}
-                                                                frameborder="0"
-                                                                scrolling="no"
-                                                                allowfullscreen="">
-                                                            </iframe>
+                                                            {incrustado(Links.server2)}
                                                         </Tab>
-                                                        <Tab eventKey="3" title="SB">
-                                                            <iframe
-                                                                className='video px-1'
-                                                                width="100%" height="450px"
-                                                                src={Links.server3}
-                                                                title={titulo}
-                                                                frameborder="0"
-                                                                scrolling="no"
-                                                                allowfullscreen="">
-                                                            </iframe>
+                                                        <Tab eventKey="3" title="Stape">
+                                                            {incrustado(Links.server3)}
                                                         </Tab>
                                                         <Tab eventKey="4" title="Fembed">
-                                                            <iframe
-                                                                className='video px-1'
-                                                                width="100%" height="450px"
-                                                                src={Links.server4}
-                                                                title={titulo}
-                                                                frameborder="0"
-                                                                scrolling="no"
-                                                                allowfullscreen="">
-                                                            </iframe>
+                                                            {incrustado(Links.server4)}
                                                         </Tab>
                                                     </Tabs>
                                                 </Card>
@@ -91,9 +69,9 @@ function Reproductor({ titulo, temporada, capitulo, poster }) {
                 })
             }
             <Container className='text-center py-2'>
-                <button className='px-4 mx-3 border border-1 border-secondary encabezado' onClick={previoHandleClick}>Previo</button>
-                <button className='px-3 mx-3 border border-1 border-secondary encabezado' onClick={indiceHandleClick}>Indice</button>
-                <button className='px-2 mx-3 border border-1 border-secondary encabezado' onClick={siguienteHandleClick}>Siguiente</button>
+                <Button variant="outline-secondary" className='px-4 fs-3 border border-1 border-secondary rounded-left' onClick={previoHandleClick}>Previo</Button>
+                <Button variant="outline-secondary" className='px-3 fs-3 border border-1 border-secondary' onClick={indiceHandleClick}>Indice</Button>
+                <Button variant="outline-secondary" className='px-2 fs-3 border border-1 border-secondary' onClick={siguienteHandleClick}>Siguiente</Button>
             </Container>
         </section>
     )

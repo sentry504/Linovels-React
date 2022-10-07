@@ -3,7 +3,6 @@ import Player from '../components/Reproductor'
 import Comments from '../components/comentarios'
 import React from 'react'
 
-
 function CapituloPage() {
     const { id, temp, cap} = useParams()
     return (

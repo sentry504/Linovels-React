@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Navbar, Nav, NavDropdown, } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 import {NavLink} from 'react-router-dom'
 import './Navbar.css'
 
@@ -14,15 +14,19 @@ export function NavbarComponent() {
                 <Nav>
                     <NavLink className="nav-link" to="./home">Inicio</NavLink>
                     <NavLink className="nav-link" to='./novelas'>Novelas</NavLink>
-                    <NavDropdown title='Animes'>
-                        <NavLink className="nav-item nav-link" to='./emision'> Emision</NavLink>
-                        <NavLink className="nav-item nav-link" to='../animes'> Listado</NavLink>
-                        <NavDropdown.Divider />
-                        <NavLink className="link nav-link" to='./proximos'> Proximos</NavLink>
-                    </NavDropdown>
+                    <NavLink className="nav-link" to='../animes'> Animes</NavLink>
                     <NavLink className="nav-link" to='./cuentos'>Cuentos</NavLink>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
     )
 }
+/*
+                    <NavDropdown title='Animes'>
+                        <NavLink className="nav-item nav-link" to='./emision'> Emision</NavLink>
+                        <NavDropdown.Divider />
+                        <NavLink className="nav-item nav-link" to='../animes'> Listado</NavLink>
+                        <NavDropdown.Divider />
+                        <NavLink className="link nav-link" to='./proximos'> Proximos</NavLink>
+                    </NavDropdown> 
+*/
