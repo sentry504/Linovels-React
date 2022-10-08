@@ -27,7 +27,6 @@ function App(){
             <NavbarComponent />
             <Routes>
                 <Route path="/" element={<HomePage/>}/>
-                <Route path="/home" element= {<HomePage/>}></Route>
                 <Route path='/novelas' element= {<Novelas/>} />
                 <Route path='/cuentos' element= {<CuentosPage/>} />
                 <Route path='/novelas/:id' element= {<NovelaPage/>} />
