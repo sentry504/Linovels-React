@@ -1,5 +1,91 @@
 import Imagenes from './ImEx'
+//Servidor streamtape genera errores en la URL
 const animes=[
+    {
+        "anime" : "Overlord - Eventos CD",
+        "portada" : Imagenes.Overlord.Overlod2,
+        "info" : "", 
+        "sinopsis:" : "Historias a parte del anime, narradas con las voces de los actores de voz de la serie animada.",
+        "temporada" : [
+            {
+                "ID":"Drama", 
+                "capitulos":[
+                    {
+                        "id" : 1,
+                        "Links" : [{
+                            "server1" : "https://www.youtube.com/embed/fePcxexfZ4I",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 2,
+                        "Links" : [{
+                            "server1" : "https://www.youtube.com/embed/nRAQyfzuFBE",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 3,
+                        "Links" : [{
+                            "server1" : "https://www.youtube.com/embed/Xiw4QYORZ2k",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 4,
+                        "Links" : [{
+                            "server1" : "https://www.youtube.com/embed/u_62lzKWJX4",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 5,
+                        "Links" : [{
+                            "server1" : "https://www.youtube.com/embed/Gn1AG0w3-nE",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 6,
+                        "Links" : [{
+                            "server1" : "https://www.youtube.com/embed/I3-7BK_hXNs",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 7,
+                        "Links" : [{
+                            "server1" : "https://www.youtube.com/embed/bQFV1VxSD6s",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 8,
+                        "Links" : [{
+                            "server1" : "https://www.youtube.com/embed/OyrBQk-kPpI",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    }
+                ]
+            },
+        ]
+    },
     {
         "anime" : "Overlord",
         "portada" : Imagenes.Overlord.Overlod1,
@@ -14,7 +100,7 @@ const animes=[
                         "Links" : [{
                             "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
                             "server2" : "https://mega.nz/embed#!gIhigQjY!HrNnYcCzS4IZaK0OROhkEXoJKaWaJqWtt1b3GszhMR0",
-                            "server3" : "https://streamtape.com/e/zb0qBq6P1LskzZ/",
+                            "server3" : "",
                             "server4" : "https://embedsito.com/v/yx93-6weq9l"
                         }]
                     },
@@ -23,7 +109,7 @@ const animes=[
                         "Links" : [{
                             "server1" : "https://www.yourupload.com/embed/51gTh4X12nq6",
                             "server2" : "https://mega.nz/embed#!Qd5kWabQ!79vJhQpVVW62etY4jkpNpUgZvToq66cTqVSaGCyHhYM",
-                            "server3" : "https://streamtape.com/e/2DbAa1zxgytxBj/",
+                            "server3" : "",
                             "server4" : "https://embedsito.com/v/1lo6-048lo5"
                         }]
                     },
@@ -32,7 +118,7 @@ const animes=[
                         "Links" : [{
                             "server1" : "https://www.yourupload.com/embed/KG43i5tWQ14S",
                             "server2" : "https://mega.nz/embed#!MUwWzIgC!zkUmXTIYTgpjbExw81PpvUvaV7BnPVmbctTVHo6uRBc",
-                            "server3" : "https://streamtape.com/e/ayKmm4awoDsxrQ8/",
+                            "server3" : "",
                             "server4" : "https://embedsito.com/v/mzok6y7019q"
                         }]
                     },

@@ -8,7 +8,7 @@ function CapituloPage() {
     return (
         <div>
             <section className='encabezado bg-secondary py-2 px-4 rounded-bottom'>
-                <h2>{id + " - temporada " + temp + " - capitulo " + cap}</h2>
+                <h2>{id + " - " + temp + " - " + cap}</h2>
             </section>
             <section className='video'>
                 <Player titulo={id} temporada={temp} capitulo={cap}></Player>

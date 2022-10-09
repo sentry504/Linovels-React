@@ -12,8 +12,8 @@ function NotFoundPage() {
                     loop
                     autoplay>
                 </lottie-player>
-                <h3>It looks like you found a glitch in the matrix...</h3>
-                <Link to="/home">← Back to Dashboard</Link>
+                <h3> &#129335;Ups!!... Parece que encontraste un error en la matrix</h3>
+                <Link to="/home">← Volver al inicio &#128519;</Link>
             </div>
     )
 }

@@ -6,12 +6,12 @@ function AnimesPage() {
 
     return (
         <div>
-            <h1 className='text-center'>Linovels - Novelas</h1>
+            <h1 className='encabezado text-center'>Linovels - Novelas</h1>
             <Container fluid>
                 <Row>
-                    {Data && Data.map((dato) => {
+                    {Data && Data.map((dato, index) => {
                         return (
-                            <Listado nombre={dato.anime} portada={dato.portada}></Listado>
+                            <Listado nombre={dato.anime} portada={dato.portada} key={index.toString()}></Listado>
                         )
                     })}
                 </Row>

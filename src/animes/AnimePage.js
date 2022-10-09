@@ -13,14 +13,14 @@ function AnimePage() {
         <div>
             {filtrado && filtrado.map((dato,index)=>{
                 return(
-                    <section className='seccion'>
+                    <section className='seccion' key={index.toString()}>
                         <Card bg='dark'>
                         <h2 className='encabezado px-4 py-2' key={index}><strong>{dato.anime}</strong></h2>
                         <Card body>
                         <Container fluid>
                             <Row>
                                 <Col sm="5" md="4" lg="3" xl="2">
-                                <img className='portada' src={dato.info} alt="login" />
+                                <img className='portada' src={dato.info} alt="" />
                                 </Col>
                                 <Col sm="7" md="8" lg="9" xl="10">
                                     <h4><strong>Sinopsis:</strong></h4>
@@ -34,12 +34,12 @@ function AnimePage() {
                         <Accordion>
                             {dato.temporada.map((temporada,index) => {
                                 return (
-                                    <Accordion.Item eventKey={index}>
+                                    <Accordion.Item eventKey={index} key={index.toString()}>
                                         <Accordion.Header><FcMenu size="20px"></FcMenu>{"Temporada " + temporada.ID}</Accordion.Header>
                                         <Accordion.Body className='bg-secondary'>
-                                            {temporada.capitulos.map(capitulo => {
+                                            {temporada.capitulos.map((capitulo, index) => {
                                                 return (
-                                                    <Row className='bg-dark mb-1 px-2 py-2'>
+                                                    <Row className='bg-dark mb-1 px-2 py-2' key={index.toString()}>
                                                         <Link className='link text-light' to={"./"+temporada.ID+"/"+capitulo.id}><BsFillPlayFill />{" Capitulo " + capitulo.id}</Link>
                                                     </Row>
                                                 )

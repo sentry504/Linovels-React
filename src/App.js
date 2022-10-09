@@ -1,5 +1,5 @@
 //Importacion 
-import {BrowserRouter,Routes, Route} from 'react-router-dom'
+import { Routes, Route, HashRouter} from 'react-router-dom'
 import { NavbarComponent } from "./components/Navbar.jsx"
 
 //Importacion de paginas de la app
@@ -13,7 +13,6 @@ import AnimesPage from './animes/AnimesPage'
 import AnimePage from './animes/AnimePage'
 import CapituloPage from './animes/CapituloPage'
 
-
 import NotFoundPage from './pages/NotFoundPage'
 
 //Estilos y temas de app
@@ -21,12 +20,12 @@ import 'bootswatch/dist/superhero/bootstrap.min.css'
 import './css/styles.css'
 
 function App(){
-
     return(
-        <BrowserRouter>
+        <HashRouter>
             <NavbarComponent />
             <Routes>
                 <Route path="/" element={<HomePage/>}/>
+                <Route path="/home" element={<HomePage/>}/>
                 <Route path='/novelas' element= {<Novelas/>} />
                 <Route path='/cuentos' element= {<CuentosPage/>} />
                 <Route path='/novelas/:id' element= {<NovelaPage/>} />
@@ -35,7 +34,7 @@ function App(){
                 <Route path='/animes/:id/:temp/:cap' element= {<CapituloPage/>} />
                 <Route path='*' element= {<NotFoundPage/>} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 export default App
