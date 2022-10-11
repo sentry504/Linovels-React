@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Container } from 'react-bootstrap'
 
 const Comments = ({ fullUrl, id }) => {
   useEffect(() => {
@@ -29,7 +30,12 @@ const Comments = ({ fullUrl, id }) => {
       console.table(e)
     }
   }, [fullUrl,id])
-    return <div id="disqus_thread"></div>
+    return(
+      <section className='p-4' style={{backgroundColor:'#fff'}}>
+        <section id="disqus_thread">
+        </section>
+      </section>
+    )
   }
   
   export default Comments
