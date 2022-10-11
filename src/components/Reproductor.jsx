@@ -1,7 +1,6 @@
 import { Container, Card, Tabs, Tab, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import Data from '../animes/animesData'
-import NoEncontrado from '../animes/ImEx'
 
 
 function Reproductor({ titulo, temporada, capitulo }) {
@@ -47,7 +46,6 @@ function Reproductor({ titulo, temporada, capitulo }) {
             >
         </iframe>)
     }
-
     return (
         <section>
             {

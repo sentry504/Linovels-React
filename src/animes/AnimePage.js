@@ -24,7 +24,7 @@ function AnimePage() {
                                 </Col>
                                 <Col sm="7" md="8" lg="9" xl="10">
                                     <h4><strong>Sinopsis:</strong></h4>
-                                    <p>{dato['sinopsis:']}</p>
+                                    <p>{dato['sinopsis']}</p>
                                 </Col>
                             </Row>
                         </Container>
@@ -34,7 +34,7 @@ function AnimePage() {
                         <Accordion>
                             {dato.temporada.map((temporada,index) => {
                                 return (
-                                    <Accordion.Item eventKey={index} key={index.toString()}>
+                                    <Accordion.Item className='border border-secondary' eventKey={index} key={index.toString()}>
                                         <Accordion.Header><FcMenu size="20px"></FcMenu>{"Temporada " + temporada.ID}</Accordion.Header>
                                         <Accordion.Body className='bg-secondary'>
                                             {temporada.capitulos.map((capitulo, index) => {

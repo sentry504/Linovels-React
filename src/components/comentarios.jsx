@@ -28,7 +28,7 @@ const Comments = ({ fullUrl, id }) => {
     }catch(e){
       console.table(e)
     }
-  }, [])
+  }, [fullUrl,id])
     return <div id="disqus_thread"></div>
   }
   

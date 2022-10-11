@@ -1,0 +1,31 @@
+
+.body{
+    position: relative;
+}
+.cuerpo{
+    background-image: url(../imagenes/artistico-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo{
+    width: 100%;
+    height: 100vh;
+}
+.uno{
+    width: 100%;
+    height: 40vh;
+}
+.dos{
+    width: 100%;
+    height: 300px;
+    background-color: #242f3b;
+}
+.tres{
+    width: 100%;
+    height: 100vh;
+    background-color: #242f3b;
+}
+.opacity-1{
+    background-color: #202c3aa2;
+}

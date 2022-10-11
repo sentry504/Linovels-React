@@ -6,7 +6,7 @@ import Data from './animesData.js'
 
 function AnimesPage() {
     return (
-        <div>
+        <div className='artistico-1'>
             <h1 className='encabezado text-center'>Linovels - Animes</h1>
             <Container fluid>
                 <Row>

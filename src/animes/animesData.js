@@ -5,7 +5,7 @@ const animes=[
         "anime" : "Overlord - Eventos CD",
         "portada" : Imagenes.Overlord.Overlod2,
         "info" : "", 
-        "sinopsis:" : "Historias a parte del anime, narradas con las voces de los actores de voz de la serie animada.",
+        "sinopsis" : "Historias a parte del anime, narradas con las voces de los actores de voz de la serie animada. Puedes seguir al creador de los videos y apoyar su canal - Overlord en Español, te dejo enlace del canal: https://www.youtube.com/c/OverlordEspa%C3%B1ol",
         "temporada" : [
             {
                 "ID":"Drama", 
@@ -90,7 +90,7 @@ const animes=[
         "anime" : "Overlord",
         "portada" : Imagenes.Overlord.Overlod1,
         "info" : Imagenes.Overlord.Overlod2, 
-        "sinopsis:" : "La historia da comienzo cuando Yggdrasil, un popular juego online, es cerrado un día sin previo aviso. Sin embargo, el protagonista, Momonga, decide no salir del juego. Momonga así se transforma y se convierte en “el mago más poderoso”. El mundo sigue cambiando con él dentro, y los NPCs comienzan a sentir emociones. Sin familia, amigos ni lugar en la sociedad, Momonga tendrá que luchar por adaptarse al nuevo mundo en el que se ha convertido el juego.",
+        "sinopsis" : "La historia da comienzo cuando Yggdrasil, un popular juego online, es cerrado un día sin previo aviso. Sin embargo, el protagonista, Momonga, decide no salir del juego. Momonga así se transforma y se convierte en “el mago más poderoso”. El mundo sigue cambiando con él dentro, y los NPCs comienzan a sentir emociones. Sin familia, amigos ni lugar en la sociedad, Momonga tendrá que luchar por adaptarse al nuevo mundo en el que se ha convertido el juego.",
         "temporada" : [
             {
                 "ID":"I", 
@@ -462,6 +462,9 @@ const animes=[
     },
     {
         "anime" : "Tensei Shitara Slime Datta Ken",
+        "portada" : Imagenes.Overlord.Overlod2,
+        "info" : "", 
+        "sinopsis" : "",
         "temporada" : [
             {
                 "ID":"I", 

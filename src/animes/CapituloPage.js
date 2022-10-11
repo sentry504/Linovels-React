@@ -13,11 +13,10 @@ function CapituloPage() {
             <section className='video'>
                 <Player titulo={id} temporada={temp} capitulo={cap}></Player>
             </section>
-            <section className='Comentarios'>
-                <Comments fullUrl={document.URL} id={id}/>
+            <section className='Comentarios' style={{color:'#eee'}}>
+                <Comments fullUrl={document.URL} id={id+temp+cap}/>
             </section>
         </div>
     )
 }
 export default CapituloPage
-//
