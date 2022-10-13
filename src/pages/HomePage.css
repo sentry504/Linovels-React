@@ -3,10 +3,28 @@
     position: relative;
 }
 .cuerpo{
-    background-image: url(../imagenes/artistico-2.png);
+    background-image: url(../imagenes/artistico-1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+.anime{
+    background-image: url(../imagenes/banner-anime.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+.lightnovels{
+    background-image: url(../imagenes/banner-light-novels.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+.cuentos{
+    background-image: url(../imagenes/banner-cuentos.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
 }
 .fondo{
     width: 100%;
@@ -14,11 +32,11 @@
 }
 .uno{
     width: 100%;
-    height: 40vh;
+    height:max-content;
 }
 .dos{
     width: 100%;
-    height: 300px;
+    height: 40vh;
     background-color: #242f3b;
 }
 .tres{

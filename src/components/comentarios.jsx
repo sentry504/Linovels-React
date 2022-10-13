@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import { Container } from 'react-bootstrap'
 
 const Comments = ({ fullUrl, id }) => {
   useEffect(() => {
@@ -14,7 +13,7 @@ const Comments = ({ fullUrl, id }) => {
 
       const d = document
       const s = d.createElement('script')
-      s.src = 'https://sentry.disqus.com/embed.js' // REPLACE THIS LINE WITH YOUR DISQUS LINE
+      s.src = 'https://sentry.disqus.com/embed.js'
       s.id = DISQUS_SCRIPT
       s.async = true
       s.setAttribute('data-timestamp', +new Date())

@@ -3,7 +3,6 @@ import {Container, Row, Col, Card, ListGroup, ListGroupItem} from 'react-bootstr
 import {BsCollectionPlay} from 'react-icons/bs'
 import { Link, useParams } from 'react-router-dom'
 import Data from './novelasData'
-import Lector from '../components/Lector'
 
 function NovelaPage() {
     const { id } = useParams()

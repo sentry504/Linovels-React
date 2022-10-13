@@ -70,16 +70,10 @@ footer {
 }
 
 .himouto-1{
-    background-image: url(../imagenes/himouto-1.png);
+    background-image: url("");
     background-repeat: no-repeat;
     background-size:contain;
     background-attachment: fixed;
-}
-.himouto-2{
-    background-image: url(../imagenes/himouto-2.png);
-    background-repeat: no-repeat;
-    background-size:contain ;
-    background-attachment:fixed;
 }
 .artistico-1{
     background-image: url(../imagenes/artistico-1.png);

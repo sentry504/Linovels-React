@@ -25,12 +25,3 @@ export function NavbarComponent() {
         </Navbar>
     )
 }
-/*
-                    <NavDropdown title='Animes'>
-                        <NavLink className="nav-item nav-link" to='./emision'> Emision</NavLink>
-                        <NavDropdown.Divider />
-                        <NavLink className="nav-item nav-link" to='../animes'> Listado</NavLink>
-                        <NavDropdown.Divider />
-                        <NavLink className="link nav-link" to='./proximos'> Proximos</NavLink>
-                    </NavDropdown> 
-*/
