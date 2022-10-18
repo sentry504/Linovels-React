@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## [Preview](https://linovels.netlify.app "Preview del proyecto")
+![home](home.png)
+###  
+![info](info.png)
+###    
+![reproductor](reproductor.png)
+###  
+![lector](lector.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
