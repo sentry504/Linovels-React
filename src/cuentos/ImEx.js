@@ -1,4 +1,4 @@
-import cuentos_Tradicionales from '../novelas/archivos/overlord/Overlord-Volumen-1.pdf'
+import cuentos_Tradicionales from './documentos/cuentos-infantiles.pdf'
 
 const animes={
     cuento: {cuentos_Tradicionales}

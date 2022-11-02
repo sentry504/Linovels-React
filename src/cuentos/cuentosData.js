@@ -19,8 +19,7 @@ const animes = [
         cargo de CLH; mientras que las ilustraciones fueron hechas por dibujantes
         japoneses. El texto contiene 4 de los cuentos japoneses más tradicionales en
         idioma japonés y español e incluye un cuestionario de preguntas al final de
-        cada historia para ayudar a reforzar el aprendizaje. Se han
-        impreso 250 ejemplares que ya se vienen distribuyendo gratuitamente.`,
+        cada historia para ayudar a reforzar el aprendizaje.`,
         "link" : cuentos.cuento.cuentos_Tradicionales
     }
 ]

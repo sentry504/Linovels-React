@@ -8,6 +8,7 @@ import CuentosPage from './cuentos/CuentosPage'
 import CuentoPage from './cuentos/CuentoPage'
 import Novelas from './novelas/NovelasPage'
 import NovelaPage from './novelas/NovelaPage'
+import Lector from './novelas/Lector'
 
 //Seccion animes
 import AnimesPage from './animes/AnimesPage'
@@ -15,7 +16,6 @@ import AnimePage from './animes/AnimePage'
 import CapituloPage from './animes/CapituloPage'
 
 import NotFoundPage from './pages/NotFoundPage'
-import Lector from './components/Lector'
 
 //Estilos y temas de app
 import 'bootswatch/dist/superhero/bootstrap.min.css'
@@ -30,7 +30,7 @@ function App(){
                 <Route path="/home" element={<HomePage/>}/>
                 <Route path='/novelas' element= {<Novelas/>} />
                 <Route path='/novelas/:id' element= {<NovelaPage/>} />
-                <Route path='/novelas/:id/:doc' component= {<Lector/>} />
+                <Route path='/novelas/:id/:doc' element= {<Lector/>} />
                 <Route path='/cuentos' element= {<CuentosPage/>} />
                 <Route path='/cuentos/:id' element= {<CuentoPage/>} />
                 <Route path='/cuentos/:id/:doc' component= {<Lector/>} />
