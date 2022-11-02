@@ -3,7 +3,7 @@ import cuentos from './ImEx'
 const animes = [
     {
         "cuento" : "Cuentos tradicionanes de japon",
-        "portada" : "",//Imagenes.Overlord.Overlod2,
+        "portada" : cuentos.cuentos_Tradicionales_Portada.cuentos_Tradicionales_Portada1,
         "sinopsis" :
             `En un esfuerzo conjunto, la Asociación Internacional de Hyogo (Hyogo Ken Kokusai
         Koryu Kyoka) y la Comunidad Latina Hyogo (CLH), acaban de publicar el libro
@@ -20,7 +20,7 @@ const animes = [
         japoneses. El texto contiene 4 de los cuentos japoneses más tradicionales en
         idioma japonés y español e incluye un cuestionario de preguntas al final de
         cada historia para ayudar a reforzar el aprendizaje.`,
-        "link" : cuentos.cuento.cuentos_Tradicionales
+        "link" : cuentos.cuentos_Tradicionales.cuentos_Tradicionales1
     }
 ]
 

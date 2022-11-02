@@ -1,6 +1,8 @@
-import cuentos_Tradicionales from './documentos/cuentos-infantiles.pdf'
+import cuentos_Tradicionales1 from './documentos/cuentos-infantiles.pdf'
+import cuentos_Tradicionales_Portada1 from './documentos/cuentos-infantiles.png'
 
-const animes={
-    cuento: {cuentos_Tradicionales}
+const cuentos={
+    cuentos_Tradicionales: {cuentos_Tradicionales1},
+    cuentos_Tradicionales_Portada: {cuentos_Tradicionales_Portada1}
 }
-export default animes
+export default cuentos

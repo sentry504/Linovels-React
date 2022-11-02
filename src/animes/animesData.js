@@ -1,6 +1,7 @@
 import Imagenes from './ImEx'
 //Servidor streamtape genera errores en la URL
 const animes=[
+    //overlord cd
     {
         "anime" : "Overlord - Eventos CD",
         "portada" : Imagenes.Overlord.Overlod2,
@@ -85,7 +86,10 @@ const animes=[
                 ]
             },
         ]
+    
     },
+    
+    //Overlord
     {
         "anime" : "Overlord",
         "portada" : Imagenes.Overlord.Overlod1,
@@ -460,9 +464,11 @@ const animes=[
             }
         ]
     },
+
+    //Tensei Shitara Slime Datta Ken
     {
         "anime" : "Tensei Shitara Slime Datta Ken",
-        "portada" : Imagenes.Overlord.Overlod2,
+        "portada" : Imagenes.TenseiShittaraSlimeDattaKen.TenseiShittaraSlimeDattaKen1,
         "info" : "", 
         "sinopsis" : "",
         "temporada" : [
@@ -512,6 +518,28 @@ const animes=[
                     }
                 ]
             }
+        ]
+    },
+    {
+        "anime" : "Fullmetal Alchemist Brotherhood",
+        "portada" : Imagenes.FullmetalAlchemistBrotherhoot.FullmetalAlchemistBrotherhoot1,
+        "info" : "", 
+        "sinopsis" : "",
+        "temporada" : [
+            {
+                "ID":"I", 
+                "capitulos":[
+                    {
+                        "id" : 1,
+                        "Links" : [{
+                            "server1" : "https://www.yourupload.com/embed/Y0a7PHDtS478",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    }
+                ]
+            },
         ]
     }
 ]

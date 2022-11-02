@@ -30,7 +30,7 @@ function NovelaPage() {
                             {dato.volumen.map((volumen,index) => {
                                 return (
                                     <ListGroupItem className='bg-dark mb-1 px-2 py-2' key={index.toString()}>
-                                        <Link className='link text-light' to={"./"+index}>{`Volumen ${index+1}`}</Link>
+                                        <Link className='link text-light' to={"./"+(index+1)}>{`Volumen ${index+1}`}</Link>
                                     </ListGroupItem>
                                 )
                             })}

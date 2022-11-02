@@ -7,7 +7,7 @@ function Lector() {
     return (
         <div>
             {filtrado && filtrado.map((dato, index) => {
-                const pdf = dato.volumen && dato.volumen.filter((filtro,index) => index === parseInt(doc))
+                const pdf = dato.volumen && dato.volumen.filter((filtro,index) => index === parseInt(doc-1))
                 
                 return(
                     <div key={index.toString()}>
@@ -16,7 +16,7 @@ function Lector() {
                                 console.log(dato)
                                 return (
                                     <div style={{height:"100vh"}} key={index.toString()}>
-                                        <iframe src={`${dato}#toolbar=1`} width="100%" height="100%" title={dato.toString()}></iframe>
+                                        <iframe src={`${dato.link}#toolbar=1`} width="100%" height="100%" title={dato.link.toString()}></iframe>
                                     </div>
                                 )
                             })
