@@ -37,7 +37,7 @@ footer {
     text-decoration: none;
 }
 
-.cont-imagen{
+.cont-imagen {
     overflow: hidden;
 }
 
@@ -57,24 +57,25 @@ footer {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202532", endColorstr="#202532", GradientType=1);
 }
 
-.nav-link{
+.nav-link {
     border-radius: 0px 0px 10px 10px;
 }
 
-.portada{
+.portada {
     border-radius: 10px;
 }
 
-.comentarios{
+.comentarios {
     margin-bottom: 30px;
 }
 
-.himouto-1{
+.himouto-1 {
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
     background-attachment: fixed;
 }
-.artistico-1{
+
+.artistico-1 {
     background-image: url(../imagenes/artistico-1.png);
     background-repeat: no-repeat;
     background-size: cover;

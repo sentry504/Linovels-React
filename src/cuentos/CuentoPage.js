@@ -16,12 +16,12 @@ function CuentoPage() {
                             <Card body>
                                 <Container fluid>
                                     <Row>
-                                        <Col sm="5" md="4" lg="3" xl="2">
+                                        <Col sm="7" md="5" lg="3" xl="2">
                                             <img className='portada' src={dato.portada} alt="" />
                                         </Col>
-                                        <Col sm="7" md="8" lg="9" xl="10">
+                                        <Col md="7" lg="9" xl="10">
                                             <h4><strong>Sinopsis:</strong></h4>
-                                            <p>{dato['sinopsis']}</p>
+                                            <p className='overflow-auto'>{dato['sinopsis']}</p>
                                         </Col>
                                     </Row>
                                 </Container>
@@ -31,9 +31,9 @@ function CuentoPage() {
                         <iframe src={`${dato.link}#toolbar=1`} width="100%" height="100%" title={dato.cuento.toString()}></iframe>
                         </div>
                     </section>
-                )
-            })}
-        </div>
+    )
+})}
+        </div >
     )
 }
 export default CuentoPage

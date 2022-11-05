@@ -2,8 +2,7 @@ import { Container, Row } from 'react-bootstrap';
 import Listado from '../components/Listado'
 import Data from './cuentosData'
 
-function AnimesPage() {
-
+function CuentosPage() {
     return (
         <div className='artistico-1'>
             <h1 className='encabezado text-center'>Linovels - Cuentos</h1>
@@ -11,7 +10,7 @@ function AnimesPage() {
                 <Row>
                     {Data && Data.map((dato, index) => {
                         return (
-                            <Listado nombre={dato.cuento} portada={dato.portada}></Listado>
+                            <Listado key={index} indice={index} nombre={dato.cuento} portada={dato.portada}></Listado>
                         )
                     })}
                 </Row>
@@ -19,5 +18,5 @@ function AnimesPage() {
         </div>
     )
 }
-export default AnimesPage
+export default CuentosPage
 //https://drive.google.com/file/d/1UjbfYPekGEue-AyHaELppiCbMeVtPYMK/view?usp=sharing

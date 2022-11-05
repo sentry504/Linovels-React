@@ -1,12 +1,9 @@
-
-.body{
-    position: relative;
-}
 .cuerpo{
     background-image: url(../imagenes/artistico-1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: max-content;
 }
 .anime{
     background-image: url(../imagenes/banner-anime.png);
