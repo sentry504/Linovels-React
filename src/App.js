@@ -41,7 +41,6 @@ function App(){
             }>
             <Routes>
                 <Route path="/" element={<HomePage/>}/>
-                <Route path="/home" element={<HomePage/>}/>
                 <Route path='/novelas' element= {<Novelas/>} />
                 <Route path='/novelas/:id' element= {<NovelaPage/>} />
                 <Route path='/novelas/:id/:doc' element= {<Lector/>} />

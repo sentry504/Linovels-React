@@ -1,7 +1,9 @@
 import overlord from './archivos/overlord/ImExOverlord'
 import greatDemondKing from './archivos/greatdemondking/ImExGreatDemondKing'
+import kumoDesuGaNaniKa from './archivos/kumodesugananika/ImExKumoDesuGaNaniKa'
+import soloLeveling from './archivos/sololeveling/ImExSoloLeveling'
 //Servidor streamtape genera errores en la URL
-const animes=[
+const novelas=[
     {
         "novela" : "Overlord",
         "portada" : overlord.OverlordImg.OverlordImg,
@@ -38,7 +40,7 @@ const animes=[
         ]
     },
     {
-        "novela" : "Great Demond King",
+        "novela" : "Great Demon King",
         "portada" : greatDemondKing.greatDemondKingImg,
         "sinopsis" : `Han Shuo, es un joven que ha desperdiciado su vida y no ha sabido sacarle provecho.
         Un día es raptado por un misterioso anciano para ser usado como recipiente para su alma si es que pierde la batalla que esta a punto de librar contra las fuerzas del bien.
@@ -57,17 +59,48 @@ const animes=[
             {"link" : greatDemondKing.greatDemondKingPDF.Compendio8,"title": 'Capitulos 701-800'},
             {"link" : greatDemondKing.greatDemondKingPDF.Compendio9,"title": 'Capitulos 801-900'},
             {"link" : greatDemondKing.greatDemondKingPDF.Compendio10,"title": 'Capitulos 901-1000'},
-            {"link" : greatDemondKing.greatDemondKingPDF.Compendio10,"title": 'Capitulos 1001-1027'},
+            {"link" : greatDemondKing.greatDemondKingPDF.Compendio10,"title": 'Capitulos 1001-1027'}
         ]
     },
     {
-        "novela" : "aa",
-        "portada" : overlord.OverlordImg.OverlordImg,
-        "sinopsis" : ``,
+        "novela" : "Kumo desu ga Nani ka",
+        "portada" : kumoDesuGaNaniKa.kumoDesuGaNaniKaImg,
+        "sinopsis" : `En un mundo donde la batalla entre el Héroe y el Señor Demonio se repetía continuamente. Un enorme hechizo provocado por ambos cruzo la frontera entre ese y otros mundos e hizo explotar un aula en una secundaria.
+        El hechizo golpeó a todos en la clase, y todos ellos perdieron sus vidas en un instante. Las almas de esas víctimas fueron lanzadas a otro mundo, y cada uno de ellos reencarno.
+        La protagonista, quien tenia la peor reputación en la clase, se ve reencarnada en una araña dentro de una enorme cueva. Ahora, sin comida, refugio y rodeada de monstruos, se vera obligada a usar todo su ingenio y fuerza de voluntad para sobrevivir.
+        Esta es la historia de la joven estudiante que se ve convertida en una araña y su lucha a través de este nuevo mundo.`,
         "volumen" : [
-            {"link" : overlord.OverlordPDF.Prologo,"title": '-'}
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio1,"title": 'Volumen 1'},
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio2,"title": 'Volumen 2'},
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio3,"title": 'Volumen 3'},
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio4,"title": 'Volumen 4'},
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio5,"title": 'Volumen 5'},
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio6,"title": 'Volumen 6'},
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio7,"title": 'Volumen 7'},
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio8,"title": 'Volumen 8'},
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio9,"title": 'Volumen 9'},
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio10,"title": 'Volumen 10'},
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio11,"title": 'Volumen 11'},
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio12,"title": 'Volumen 12'},
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio13,"title": 'Volumen 13'},
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio14,"title": 'Volumen 14'},
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio15,"title": 'Volumen 15'},
+            {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio16,"title": 'Volumen 16'}
+        ]
+    },
+    {
+        "novela" : "Solo leveling",
+        "portada" : soloLeveling.soloLevelingImg,
+        "sinopsis" : `En un mundo en el que ciertos humanos poseen habilidades mágicas, llamados cazadores, deben luchar contra monstruos para proteger a la raza humana de una aniquilación segura, un cazador muy débil llamado Sung Jinwoo se encuentra en una lucha en la que solo puede tratar de sobrevivir.`,
+        "volumen" : [
+            {"link" : soloLeveling.soloLevelingPDF.Compendio1,"title": 'Arco 1 - Mazmorra rango D'},
+            {"link" : soloLeveling.soloLevelingPDF.Compendio2,"title": 'Arco 2 - Despertar'},
+            {"link" : soloLeveling.soloLevelingPDF.Compendio3,"title": 'Arco 3 - Mazmorra instantánea'},
+            {"link" : soloLeveling.soloLevelingPDF.Compendio4,"title": 'Arco 4 - Mazmorras y Lagartos'},
+            {"link" : soloLeveling.soloLevelingPDF.Compendio5,"title": 'Arco 5 - Mazmorras y Prisioneros'},
+            {"link" : soloLeveling.soloLevelingPDF.Compendio6,"title": 'Arco 6 - Incursión de Yoo Jin-Ho'}
         ]
     }
 ]
 
-export default animes
+export default novelas
