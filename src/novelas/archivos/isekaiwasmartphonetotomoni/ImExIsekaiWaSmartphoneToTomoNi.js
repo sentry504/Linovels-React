@@ -26,8 +26,8 @@ import Compendio24 from './in-another-world-with-my-smartphone-volumen-24.pdf'
 import Compendio25 from './in-another-world-with-my-smartphone-volumen-25.pdf'
 import Compendio26 from './in-another-world-with-my-smartphone-volumen-26.pdf'
 const IsekaiWaSmartphoneToTomoNi = {
-    IsekaiWaSmartphoneToTomoNiImg: Img,
-    IsekaiWaSmartphoneToTomoNiPDF:
+    Img: Img,
+    PDF:
     {
         Compendio1,Compendio2,Compendio3,Compendio4,Compendio5,Compendio6,
         Compendio7,Compendio8,Compendio9,Compendio10,Compendio11,Compendio12,
