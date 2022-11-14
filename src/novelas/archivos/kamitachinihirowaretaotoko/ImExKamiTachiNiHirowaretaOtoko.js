@@ -12,8 +12,8 @@ import Compendio10 from './Kamihiro10.pdf'
 import Compendio11 from './Kamihiro11.pdf'
 
 const KamiTachiNiHirowareta = {
-    KamiTachiNiHirowaretaImg: Img,
-    KamiTachiNiHirowaretaPDF:
+    Img: Img,
+    PDF:
     {
         Compendio1, Compendio2, Compendio3, Compendio4, 
         Compendio5, Compendio6, Compendio7, Compendio8,

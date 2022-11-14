@@ -16,8 +16,8 @@ import Compendio14 from './kumo-desu-ga-nani-ka-volumen-14.pdf'
 import Compendio15 from './kumo-desu-ga-nani-ka-volumen-15.pdf'
 import Compendio16 from './kumo-desu-ga-nani-ka-volumen-16.pdf'
 const kumoDesuGaNaniKa = {
-    kumoDesuGaNaniKaImg: Img,
-    kumoDesuGaNaniKaPDF:
+    Img: Img,
+    PDF:
     {
         Compendio1, Compendio2, Compendio3, Compendio4, Compendio5, Compendio6,
         Compendio7, Compendio8, Compendio9, Compendio10, Compendio11, Compendio12, 

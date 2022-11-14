@@ -6,8 +6,8 @@ import Compendio4 from './sololeveling-arco4-mazmorrasylagartos.pdf'
 import Compendio5 from './sololeveling-arco5-mazmorrasyprisioneros.pdf'
 import Compendio6 from './sololeveling-arco6-incursiondeyoojinho.pdf'
 const soloLeveling = {
-    soloLevelingImg: Img,
-    soloLevelingPDF:
+    Img: Img,
+    PDF:
     {
         Compendio1,Compendio2,Compendio3,Compendio4,Compendio5,Compendio6
     }

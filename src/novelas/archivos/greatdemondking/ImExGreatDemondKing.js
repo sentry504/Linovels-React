@@ -12,8 +12,8 @@ import Compendio10 from './great-demon-king-901-1000.pdf'
 import Compendio11 from './great-demon-king-1001-1027.pdf'
 
 const greatDemondKing = {
-    greatDemondKingImg: Img,
-    greatDemondKingPDF:
+    Img: Img,
+    PDF:
     {
         Compendio1, Compendio2, Compendio3, Compendio4, Compendio5, Compendio6,
         Compendio7, Compendio8, Compendio9, Compendio10, Compendio11

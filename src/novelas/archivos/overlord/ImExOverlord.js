@@ -24,8 +24,8 @@ import Volumen15 from './Overlord-Volumen-15.pdf'
 import Volumen16 from './Overlord-Volumen-16.pdf'
 
 const Overlord = {
-    OverlordImg: { OverlordImg },
-    OverlordPDF: {
+    Img: { OverlordImg },
+    PDF: {
         Prologo, Volumen1, Volumen0Alternativo, Volumen1Alternativo,
         ElEmisarioDelRey, CharlaEntreChicas, DramaDeLas3Damas, DiaDePleyades, Volumen2,
         Volumen3, Volumen4, Volumen5, Volumen6, Volumen7, Volumen8, Volumen9,
