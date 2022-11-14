@@ -1,0 +1,13 @@
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.loading {
+  clip-path: inset(0);
+}
+
+.loaded {
+  transition: filter 0.5s linear;
+}

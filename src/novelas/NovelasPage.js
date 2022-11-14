@@ -1,57 +1,45 @@
-import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import { Container, Row, Col, Form } from 'react-bootstrap';
 import Listado from '../components/Listado'
 import Data from './novelasData'
 import SEO from '../components/SEO'
 import { useState } from 'react';
 function NovelasPage() {
-    const initialStateValues = {
-        name: ""
-    };
 
-    const [values, SetValues] = useState(initialStateValues)
+    const [values, SetValues] = useState('')
 
     const handleInputChange = (e) => {
-        const { name, value } = e.target;
-        SetValues({ ...values, [name]: value })
-        console.log(name)
-    };
-
-    const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(values.name)
-
-    }
+        const { value } = e.target;
+        SetValues(value)
+    };
 
     return (
         <div className='artistico-1'>
             <SEO
                 title="Linovels-Novelas"
-                description=""
+                description="Linovels-Novelas"
                 keywords={"novelas,ligeras,anime,cuentos,ver,completa,capitulo,"}>
             </SEO>
-            <Row>
-                <Col className='encabezado'>
-                    <div className=''>
+            <Row className='encabezado mx-0'>
+                <Col className='col-8'>
+                    <div>
                         <h1 className='text-center'>Linovels - Novelas</h1>
                     </div>
                 </Col>
-                <Col className='encabezado col-4'>
-                    <Form className="d-flex" onSubmit={handleSubmit}>
+                <Col>
+                    <Form className="d-flex pt-2">
                         <Form.Control
-                            onClick={handleInputChange}
-                            type="search"
-                            placeholder="Search"
-                            className="me-2"
+                            onChange={handleInputChange}
+                            placeholder="Buscar novela"
                             aria-label="Search"
                         />
-                        <Button variant="outline-success" type='sumit'>Buscar</Button>
                     </Form>
                 </Col>
             </Row>
             <Container fluid>
                 <Row>
                     {Data && Data.map((dato, index) => {
-                        return (dato.novela.toLowerCase().includes(values.name)) ? <Listado nombre={dato.novela} portada={dato.portada} key={index.toString()}></Listado> : false;
+                        return ((dato.novela.toLowerCase().includes(values.toLowerCase())) ? <Listado nombre={dato.novela} portada={dato.portada} key={index.toString()}></Listado> : false)
                     })}
                 </Row>
             </Container>

@@ -2,17 +2,14 @@ import overlord from './archivos/overlord/ImExOverlord'
 import greatDemondKing from './archivos/greatdemondking/ImExGreatDemondKing'
 import kumoDesuGaNaniKa from './archivos/kumodesugananika/ImExKumoDesuGaNaniKa'
 import soloLeveling from './archivos/sololeveling/ImExSoloLeveling'
+import KamiTachiNiHirowareta from './archivos/kamitachinihirowaretaotoko/ImExKamiTachiNiHirowaretaOtoko'
+import IsekaiWaSmartphoneToTomoNi from './archivos/isekaiwasmartphonetotomoni/ImExIsekaiWaSmartphoneToTomoNi'
 //Servidor streamtape genera errores en la URL
 const novelas=[
     {
         "novela" : "Overlord",
         "portada" : overlord.OverlordImg.OverlordImg,
-        "sinopsis" : `Después de anunciar que suspendería todos sus servicios, el juego de internet "Yggdrasil" apago sus servidores.
-        Pero por alguna razón, un jugador no se desconectó automáticamente…
-        Pero eso no fue todo, los NPC de su gremio cobraron vida…
-        Es así como un joven normal, que amaba el videojuego Yggdrasil en el mundo real, fue transportado a un mundo alternativo junto con todo su gremio.
-        Convirtiéndose como resultado en el mago más poderoso, Momonga, un no-muerto con la apariencia de un esqueleto.
-        ¡Ahora él dirigirá a su gremio "Ainz Ooal Gown" hacia una aventura legendaria sin precedentes!`,
+        "sinopsis" : `Después de anunciar que suspendería todos sus servicios, el juego de internet "Yggdrasil" apago sus servidores. Pero por alguna razón, un jugador no se desconectó automáticamente… Pero eso no fue todo, los NPC de su gremio cobraron vida… Es así como un joven normal, que amaba el videojuego Yggdrasil en el mundo real, fue transportado a un mundo alternativo junto con todo su gremio. Convirtiéndose como resultado en el mago más poderoso, Momonga, un no-muerto con la apariencia de un esqueleto. ¡Ahora él dirigirá a su gremio "Ainz Ooal Gown" hacia una aventura legendaria sin precedentes!`,
         "volumen" : [
             {"link" : overlord.OverlordPDF.Prologo,"title": 'Extras - Prologo'},
             {"link" : overlord.OverlordPDF.Volumen0Alternativo,"title": 'Volumen 0 alternativo - La llegada de los Dioses'},
@@ -42,12 +39,7 @@ const novelas=[
     {
         "novela" : "Great Demon King",
         "portada" : greatDemondKing.greatDemondKingImg,
-        "sinopsis" : `Han Shuo, es un joven que ha desperdiciado su vida y no ha sabido sacarle provecho.
-        Un día es raptado por un misterioso anciano para ser usado como recipiente para su alma si es que pierde la batalla que esta a punto de librar contra las fuerzas del bien.
-        Durante la batalla su captor perece pero su hechizo de resurrección es interrumpido provocando que Han Shuo sea afectado por un horrible dolor.
-        “Si logro sobrevivir… juro que no dejaré de cumplir con mis más perversos deseos.”
-        No es exactamente el típico pensamiento que tendrían quienes están a punto de morir.
-        Al despertar se encuentra en un mundo de fantasía medieval dentro del cuerpo de un esclavo…`,
+        "sinopsis" : `Han Shuo, es un joven que ha desperdiciado su vida y no ha sabido sacarle provecho. Un día es raptado por un misterioso anciano para ser usado como recipiente para su alma si es que pierde la batalla que esta a punto de librar contra las fuerzas del bien. Durante la batalla su captor perece pero su hechizo de resurrección es interrumpido provocando que Han Shuo sea afectado por un horrible dolor. “Si logro sobrevivir… juro que no dejaré de cumplir con mis más perversos deseos.” No es exactamente el típico pensamiento que tendrían quienes están a punto de morir. Al despertar se encuentra en un mundo de fantasía medieval dentro del cuerpo de un esclavo…`,
         "volumen" : [
             {"link" : greatDemondKing.greatDemondKingPDF.Compendio1,"title": 'Capitulos 001-100'},
             {"link" : greatDemondKing.greatDemondKingPDF.Compendio2,"title": 'Capitulos 101-200'},
@@ -65,10 +57,7 @@ const novelas=[
     {
         "novela" : "Kumo desu ga Nani ka",
         "portada" : kumoDesuGaNaniKa.kumoDesuGaNaniKaImg,
-        "sinopsis" : `En un mundo donde la batalla entre el Héroe y el Señor Demonio se repetía continuamente. Un enorme hechizo provocado por ambos cruzo la frontera entre ese y otros mundos e hizo explotar un aula en una secundaria.
-        El hechizo golpeó a todos en la clase, y todos ellos perdieron sus vidas en un instante. Las almas de esas víctimas fueron lanzadas a otro mundo, y cada uno de ellos reencarno.
-        La protagonista, quien tenia la peor reputación en la clase, se ve reencarnada en una araña dentro de una enorme cueva. Ahora, sin comida, refugio y rodeada de monstruos, se vera obligada a usar todo su ingenio y fuerza de voluntad para sobrevivir.
-        Esta es la historia de la joven estudiante que se ve convertida en una araña y su lucha a través de este nuevo mundo.`,
+        "sinopsis" : `En un mundo donde la batalla entre el Héroe y el Señor Demonio se repetía continuamente. Un enorme hechizo provocado por ambos cruzo la frontera entre ese y otros mundos e hizo explotar un aula en una secundaria. El hechizo golpeó a todos en la clase, y todos ellos perdieron sus vidas en un instante. Las almas de esas víctimas fueron lanzadas a otro mundo, y cada uno de ellos reencarno. La protagonista, quien tenia la peor reputación en la clase, se ve reencarnada en una araña dentro de una enorme cueva. Ahora, sin comida, refugio y rodeada de monstruos, se vera obligada a usar todo su ingenio y fuerza de voluntad para sobrevivir. Esta es la historia de la joven estudiante que se ve convertida en una araña y su lucha a través de este nuevo mundo.`,
         "volumen" : [
             {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio1,"title": 'Volumen 1'},
             {"link" : kumoDesuGaNaniKa.kumoDesuGaNaniKaPDF.Compendio2,"title": 'Volumen 2'},
@@ -99,6 +88,57 @@ const novelas=[
             {"link" : soloLeveling.soloLevelingPDF.Compendio4,"title": 'Arco 4 - Mazmorras y Lagartos'},
             {"link" : soloLeveling.soloLevelingPDF.Compendio5,"title": 'Arco 5 - Mazmorras y Prisioneros'},
             {"link" : soloLeveling.soloLevelingPDF.Compendio6,"title": 'Arco 6 - Incursión de Yoo Jin-Ho'}
+        ]
+    },
+    {
+        "novela" : "Kamitachi ni Hirowareta Otoko",
+        "portada" : KamiTachiNiHirowareta.KamiTachiNiHirowaretaImg,
+        "sinopsis" : `Ryoma Takebayashi es un hombre solitario que llevó una vida llena de dificultades hasta que muere de un desafortunado accidente mientras duerme, que llegó a un final bastante repentino y decepcionante. Ryoma nunca había tenido una vida bendecida, pero después de su muerte, tres grandes dioses buscaron su cooperación y lo reencarnaron como un niño en otro mundo con espadas y magia. Al recibir la más cordial y divina bienvenida de los dioses, Ryoma decide vivir tranquilamente por su cuenta en el bosque por el momento, donde hace uso de sus conocimientos y habilidades innatos, combinados con las bendiciones de los dioses. Trabajando diligentemente en la magia y la caza, la mayor pasión de Ryoma es investigar sus slimes domesticados. Mientras entrena una variedad de slimes (algunos recién descubiertos), se levanta el telón de esta fantasía de vida tranquila que celebra una segunda vida con gente amable en otro mundo.`,
+        "volumen" : [
+            {"link" : KamiTachiNiHirowareta.KamiTachiNiHirowaretaPDF.Compendio1,"title": 'Por la gracia de los Dioses - Volumen 1'},
+            {"link" : KamiTachiNiHirowareta.KamiTachiNiHirowaretaPDF.Compendio2,"title": 'Por la gracia de los Dioses - Volumen 2'},
+            {"link" : KamiTachiNiHirowareta.KamiTachiNiHirowaretaPDF.Compendio3,"title": 'Por la gracia de los Dioses - Volumen 3'},
+            {"link" : KamiTachiNiHirowareta.KamiTachiNiHirowaretaPDF.Compendio4,"title": 'Por la gracia de los Dioses - Volumen 4'},
+            {"link" : KamiTachiNiHirowareta.KamiTachiNiHirowaretaPDF.Compendio5,"title": 'Por la gracia de los Dioses - Volumen 5'},
+            {"link" : KamiTachiNiHirowareta.KamiTachiNiHirowaretaPDF.Compendio6,"title": 'Por la gracia de los Dioses - Volumen 6'},
+            {"link" : KamiTachiNiHirowareta.KamiTachiNiHirowaretaPDF.Compendio7,"title": 'Por la gracia de los Dioses - Volumen 7'},
+            {"link" : KamiTachiNiHirowareta.KamiTachiNiHirowaretaPDF.Compendio8,"title": 'Por la gracia de los Dioses - Volumen 8'},
+            {"link" : KamiTachiNiHirowareta.KamiTachiNiHirowaretaPDF.Compendio9,"title": 'Por la gracia de los Dioses - Volumen 9'},
+            {"link" : KamiTachiNiHirowareta.KamiTachiNiHirowaretaPDF.Compendio10,"title": 'Por la gracia de los Dioses - Volumen 10'},
+            {"link" : KamiTachiNiHirowareta.KamiTachiNiHirowaretaPDF.Compendio11,"title": 'Por la gracia de los Dioses - Volumen 11'}
+        ]
+    },
+    {
+        "novela" : "Isekai wa Smartphone to Tomo ni",
+        "portada" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiImg,
+        "sinopsis" : `Touya Mochizuki, de 15 años, es asesinado accidentalmente por un rayo que se le escapó a Dios. Como disculpa por este error sin sentido, Dios permite a Touya que resucite, pero como no puede enviarlo de vuelta a su viejo mundo, lo reencarna en un mundo de fantasía junto con una sola petición especial. Touya utiliza su petición para traer su Smartphone (teléfono inteligente) al nuevo mundo con él y así, Dios acatando su petición modifica el teléfono para que funcione en el nuevo mundo. Dios también sorprendido por la humilde petición del joven y por lo amable que fue al no reprocharle por su error garrafal se da la atribución de amplificar las habilidades físicas, mágicas y cognitivas de Touya hasta cierto punto como una disculpa más por el inconveniente de matarlo. Aprovechando al máximo su segunda oportunidad en la vida, Touya se hace amigo de muchas personas diferentes en el nuevo mundo. Comienza a viajar de un país a otro, resolviendo disputas políticas, búsquedas menores y disfrutando indiferentemente con sus nuevos aliados gracias a los poderes casi benditos que recibió de la gracia de Dios.`,
+        "volumen" : [
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio1,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 1'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio2,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 2'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio3,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 3'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio4,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 4'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio5,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 5'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio6,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 6'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio7,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 7'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio8,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 8'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio9,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 9'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio10,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 10'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio11,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 11'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio12,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 12'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio13,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 13'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio14,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 14'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio15,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 15'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio16,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 16'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio17,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 17'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio18,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 18'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio19,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 19'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio20,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 20'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio21,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 21'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio22,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 22'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio23,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 23'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio24,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 24'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio25,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 25'},
+            {"link" : IsekaiWaSmartphoneToTomoNi.IsekaiWaSmartphoneToTomoNiPDF.Compendio26,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 26'}
         ]
     }
 ]
