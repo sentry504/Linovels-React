@@ -7,7 +7,7 @@ import Data from './novelasData'
 
 function NovelaPage() {
     const { id } = useParams()
-
+    
     const filtrado = Data && Data.filter((filtro) => filtro.novela === id)
     return (
         <div>

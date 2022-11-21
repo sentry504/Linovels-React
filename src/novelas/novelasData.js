@@ -10,6 +10,7 @@ const novelas=[
         "novela" : "Overlord",
         "portada" : overlord.Img.OverlordImg,
         "sinopsis" : `Después de anunciar que suspendería todos sus servicios, el juego de internet "Yggdrasil" apago sus servidores. Pero por alguna razón, un jugador no se desconectó automáticamente… Pero eso no fue todo, los NPC de su gremio cobraron vida… Es así como un joven normal, que amaba el videojuego Yggdrasil en el mundo real, fue transportado a un mundo alternativo junto con todo su gremio. Convirtiéndose como resultado en el mago más poderoso, Momonga, un no-muerto con la apariencia de un esqueleto. ¡Ahora él dirigirá a su gremio "Ainz Ooal Gown" hacia una aventura legendaria sin precedentes!`,
+        "tags" :['isekai','ficcion','superpoderes'],
         "volumen" : [
             {"link" : overlord.PDF.Prologo,"title": 'Extras - Prologo'},
             {"link" : overlord.PDF.Volumen0Alternativo,"title": 'Volumen 0 alternativo - La llegada de los Dioses'},
@@ -40,6 +41,7 @@ const novelas=[
         "novela" : "Great Demon King",
         "portada" : greatDemondKing.Img,
         "sinopsis" : `Han Shuo, es un joven que ha desperdiciado su vida y no ha sabido sacarle provecho. Un día es raptado por un misterioso anciano para ser usado como recipiente para su alma si es que pierde la batalla que esta a punto de librar contra las fuerzas del bien. Durante la batalla su captor perece pero su hechizo de resurrección es interrumpido provocando que Han Shuo sea afectado por un horrible dolor. “Si logro sobrevivir… juro que no dejaré de cumplir con mis más perversos deseos.” No es exactamente el típico pensamiento que tendrían quienes están a punto de morir. Al despertar se encuentra en un mundo de fantasía medieval dentro del cuerpo de un esclavo…`,
+        "tags" :['isekai','ficcion','superpoderes'],
         "volumen" : [
             {"link" : greatDemondKing.PDF.Compendio1,"title": 'Capitulos 001-100'},
             {"link" : greatDemondKing.PDF.Compendio2,"title": 'Capitulos 101-200'},
@@ -51,13 +53,13 @@ const novelas=[
             {"link" : greatDemondKing.PDF.Compendio8,"title": 'Capitulos 701-800'},
             {"link" : greatDemondKing.PDF.Compendio9,"title": 'Capitulos 801-900'},
             {"link" : greatDemondKing.PDF.Compendio10,"title": 'Capitulos 901-1000'},
-            {"link" : greatDemondKing.PDF.Compendio10,"title": 'Capitulos 1001-1027'}
+            {"link" : greatDemondKing.PDF.Compendio11,"title": 'Capitulos 1001-1027'}
         ]
     },
     {
         "novela" : "Kumo desu ga Nani ka",
         "portada" : kumoDesuGaNaniKa.Img,
-        "sinopsis" : `En un mundo donde la batalla entre el Héroe y el Señor Demonio se repetía continuamente. Un enorme hechizo provocado por ambos cruzo la frontera entre ese y otros mundos e hizo explotar un aula en una secundaria. El hechizo golpeó a todos en la clase, y todos ellos perdieron sus vidas en un instante. Las almas de esas víctimas fueron lanzadas a otro mundo, y cada uno de ellos reencarno. La protagonista, quien tenia la peor reputación en la clase, se ve reencarnada en una araña dentro de una enorme cueva. Ahora, sin comida, refugio y rodeada de monstruos, se vera obligada a usar todo su ingenio y fuerza de voluntad para sobrevivir. Esta es la historia de la joven estudiante que se ve convertida en una araña y su lucha a través de este nuevo mundo.`,
+        "tags" :['isekai','ficcion','superpoderes'],
         "volumen" : [
             {"link" : kumoDesuGaNaniKa.PDF.Compendio1,"title": 'Volumen 1'},
             {"link" : kumoDesuGaNaniKa.PDF.Compendio2,"title": 'Volumen 2'},
@@ -80,20 +82,23 @@ const novelas=[
     {
         "novela" : "Solo leveling",
         "portada" : soloLeveling.Img,
-        "sinopsis" : `En un mundo en el que ciertos humanos poseen habilidades mágicas, llamados cazadores, deben luchar contra monstruos para proteger a la raza humana de una aniquilación segura, un cazador muy débil llamado Sung Jinwoo se encuentra en una lucha en la que solo puede tratar de sobrevivir.`,
+        "tags" :['isekai','ficcion','superpoderes'],
         "volumen" : [
             {"link" : soloLeveling.PDF.Compendio1,"title": 'Arco 1 - Mazmorra rango D'},
             {"link" : soloLeveling.PDF.Compendio2,"title": 'Arco 2 - Despertar'},
             {"link" : soloLeveling.PDF.Compendio3,"title": 'Arco 3 - Mazmorra instantánea'},
             {"link" : soloLeveling.PDF.Compendio4,"title": 'Arco 4 - Mazmorras y Lagartos'},
             {"link" : soloLeveling.PDF.Compendio5,"title": 'Arco 5 - Mazmorras y Prisioneros'},
-            {"link" : soloLeveling.PDF.Compendio6,"title": 'Arco 6 - Incursión de Yoo Jin-Ho'}
+            {"link" : soloLeveling.PDF.Compendio6,"title": 'Arco 6 - Incursión de Yoo Jin-Ho'},
+            {"link" : soloLeveling.PDF.Compendio7,"title": 'Arco 7 - Cambio de trabajo'},
+            {"link" : soloLeveling.PDF.Compendio8,"title": 'Arco 8 - Portal Rojo'},
+            {"link" : soloLeveling.PDF.Compendio9,"title": 'Arco 9 - Castillo Demonio'}
         ]
     },
     {
         "novela" : "Kamitachi ni Hirowareta Otoko",
         "portada" : KamiTachiNiHirowareta.Img,
-        "sinopsis" : `Ryoma Takebayashi es un hombre solitario que llevó una vida llena de dificultades hasta que muere de un desafortunado accidente mientras duerme, que llegó a un final bastante repentino y decepcionante. Ryoma nunca había tenido una vida bendecida, pero después de su muerte, tres grandes dioses buscaron su cooperación y lo reencarnaron como un niño en otro mundo con espadas y magia. Al recibir la más cordial y divina bienvenida de los dioses, Ryoma decide vivir tranquilamente por su cuenta en el bosque por el momento, donde hace uso de sus conocimientos y habilidades innatos, combinados con las bendiciones de los dioses. Trabajando diligentemente en la magia y la caza, la mayor pasión de Ryoma es investigar sus slimes domesticados. Mientras entrena una variedad de slimes (algunos recién descubiertos), se levanta el telón de esta fantasía de vida tranquila que celebra una segunda vida con gente amable en otro mundo.`,
+        "tags" :['isekai','ficcion','superpoderes'],
         "volumen" : [
             {"link" : KamiTachiNiHirowareta.PDF.Compendio1,"title": 'Por la gracia de los Dioses - Volumen 1'},
             {"link" : KamiTachiNiHirowareta.PDF.Compendio2,"title": 'Por la gracia de los Dioses - Volumen 2'},
@@ -111,7 +116,7 @@ const novelas=[
     {
         "novela" : "Isekai wa Smartphone to Tomo ni",
         "portada" : IsekaiWaSmartphoneToTomoNi.Img,
-        "sinopsis" : `Touya Mochizuki, de 15 años, es asesinado accidentalmente por un rayo que se le escapó a Dios. Como disculpa por este error sin sentido, Dios permite a Touya que resucite, pero como no puede enviarlo de vuelta a su viejo mundo, lo reencarna en un mundo de fantasía junto con una sola petición especial. Touya utiliza su petición para traer su Smartphone (teléfono inteligente) al nuevo mundo con él y así, Dios acatando su petición modifica el teléfono para que funcione en el nuevo mundo. Dios también sorprendido por la humilde petición del joven y por lo amable que fue al no reprocharle por su error garrafal se da la atribución de amplificar las habilidades físicas, mágicas y cognitivas de Touya hasta cierto punto como una disculpa más por el inconveniente de matarlo. Aprovechando al máximo su segunda oportunidad en la vida, Touya se hace amigo de muchas personas diferentes en el nuevo mundo. Comienza a viajar de un país a otro, resolviendo disputas políticas, búsquedas menores y disfrutando indiferentemente con sus nuevos aliados gracias a los poderes casi benditos que recibió de la gracia de Dios.`,
+        "tags" :['isekai','ficcion','superpoderes'],
         "volumen" : [
             {"link" : IsekaiWaSmartphoneToTomoNi.PDF.Compendio1,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 1'},
             {"link" : IsekaiWaSmartphoneToTomoNi.PDF.Compendio2,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 2'},

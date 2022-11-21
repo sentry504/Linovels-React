@@ -4,7 +4,6 @@ import Data from './novelasData'
 import SEO from '../components/SEO'
 import { useState } from 'react';
 function NovelasPage() {
-
     const [values, SetValues] = useState('')
 
     const handleInputChange = (e) => {
@@ -39,6 +38,7 @@ function NovelasPage() {
             <Container fluid>
                 <Row>
                     {Data && Data.map((dato, index) => {
+                        console.table(dato.tags[0])
                         return ((dato.novela.toLowerCase().includes(values.toLowerCase())) ? <Listado nombre={dato.novela} portada={dato.portada} key={index.toString()}></Listado> : false)
                     })}
                 </Row>
