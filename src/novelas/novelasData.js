@@ -59,6 +59,7 @@ const novelas=[
     {
         "novela" : "Kumo desu ga Nani ka",
         "portada" : kumoDesuGaNaniKa.Img,
+        "sinopsis" :'La historia comienza con la protagonista una estudiante de preparatoria, hasta que una misteriosa explosión asesina a su clase entera y estos reencarnan en un mundo de fantasía. Mientras que algunos reencarnaron como príncipes o prodigios, otros no fueron tan afortunados. Nuestra heroína, quien era la más antisocial del grupo, descubre que reencarnó como una araña. Ahora al fondo de la cadena alimenticia, para sobrevivir necesitara adaptarse a esta nueva situación con pura fuerza de voluntad mientras esta atrapada en un laberinto lleno de monstruos, y la novela trata sobre su vida como araña haciendo todo lo posible para sobrevivir.',
         "tags" :['isekai','ficcion','superpoderes'],
         "volumen" : [
             {"link" : kumoDesuGaNaniKa.PDF.Compendio1,"title": 'Volumen 1'},
@@ -82,6 +83,7 @@ const novelas=[
     {
         "novela" : "Solo leveling",
         "portada" : soloLeveling.Img,
+        "sinopsis" :'En un mundo donde los cazadores, humanos que poseen habilidades mágicas, deben luchar contra monstruos mortales para proteger a la raza humana de una aniquilación segura, un cazador notoriamente débil llamado Sung Jinwoo se encuentra en una lucha aparentemente interminable por la supervivencia. Un día, después de sobrevivir por poco a una mazmorra doble abrumadoramente poderosa (las mazmorras son lugares donde residen monstruos específicos, se puede ingresar a ellos a través de portales y varían en fuerza, por lo que se les otorga la misma clasificación que a los cazadores) que casi acaba con todo su grupo, un programa misterioso llamado el Sistema lo elige como su único jugador y, a su vez, le da la habilidad extremadamente rara de subir de nivel en fuerza, posiblemente más allá de los límites conocidos. Luego, Jinwoo emprende un viaje mientras lucha contra todo tipo de enemigos, tanto hombres como monstruos.',
         "tags" :['isekai','ficcion','superpoderes'],
         "volumen" : [
             {"link" : soloLeveling.PDF.Compendio1,"title": 'Arco 1 - Mazmorra rango D'},
@@ -98,6 +100,7 @@ const novelas=[
     {
         "novela" : "Kamitachi ni Hirowareta Otoko",
         "portada" : KamiTachiNiHirowareta.Img,
+        "sinopsis" :'Ryoma Takebayashi es un hombre solitario que llevó una vida llena de dificultades hasta que muere de un desafortunado accidente mientras duerme, que llegó a un final bastante repentino y decepcionante. Ryoma nunca había tenido una vida bendecida, pero después de su muerte, tres grandes dioses buscaron su cooperación y lo reencarnaron como un niño en otro mundo con espadas y magia. Al recibir la más cordial y divina bienvenida de los dioses, Ryoma decide vivir tranquilamente por su cuenta en el bosque por el momento, donde hace uso de sus conocimientos y habilidades innatos, combinados con las bendiciones de los dioses. Trabajando diligentemente en la magia y la caza, la mayor pasión de Ryoma es investigar sus slimes domesticados. Mientras entrena una variedad de slimes (algunos recién descubiertos), se levanta el telón de esta fantasía de vida tranquila que celebra una segunda vida con gente amable en otro mundo.',
         "tags" :['isekai','ficcion','superpoderes'],
         "volumen" : [
             {"link" : KamiTachiNiHirowareta.PDF.Compendio1,"title": 'Por la gracia de los Dioses - Volumen 1'},
@@ -116,6 +119,7 @@ const novelas=[
     {
         "novela" : "Isekai wa Smartphone to Tomo ni",
         "portada" : IsekaiWaSmartphoneToTomoNi.Img,
+        "sinopsis" :'Touya Mochizuki, de 15 años, es asesinado accidentalmente por un rayo que se le escapó a Dios. Como disculpa por este error sin sentido, Dios permite a Touya que resucite, pero como no puede enviarlo de vuelta a su viejo mundo, lo reencarna en un mundo de fantasía junto con una sola petición especial. Touya utiliza su petición para traer su Smartphone (teléfono inteligente) al nuevo mundo con él y así, Dios acatando su petición modifica el teléfono para que funcione en el nuevo mundo. Dios también sorprendido por la humilde petición del joven y por lo amable que fue al no reprocharle por su error garrafal se da la atribución de amplificar las habilidades físicas, mágicas y cognitivas de Touya hasta cierto punto como una disculpa más por el inconveniente de matarlo. Aprovechando al máximo su segunda oportunidad en la vida, Touya se hace amigo de muchas personas diferentes en el nuevo mundo. Comienza a viajar de un país a otro, resolviendo disputas políticas, búsquedas menores y disfrutando indiferentemente con sus nuevos aliados gracias a los poderes casi benditos que recibió de la gracia de Dios.',
         "tags" :['isekai','ficcion','superpoderes'],
         "volumen" : [
             {"link" : IsekaiWaSmartphoneToTomoNi.PDF.Compendio1,"title": 'Isekai wa Smartphone to Tomo ni - Volumen 1'},

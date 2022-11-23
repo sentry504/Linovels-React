@@ -3,10 +3,10 @@
 import { Container, Row, Col, Form } from 'react-bootstrap';
 import Listado from '../components/Listado'
 import SEO from '../components/SEO'
-import Data from './animesData.js'
+import Data from './seriesData.js'
 import { useState } from 'react';
 
-function AnimesPage() {
+function SeriesPage() {
     const [values, SetValues] = useState('')
 
     const handleInputChange = (e) => {
@@ -18,36 +18,36 @@ function AnimesPage() {
     return (
         <div className='artistico-1'>
             <SEO
-                title={`Linovels-Animes`}
-                description={`Novela-Animes`}
-                keywords={"novelas,ligeras,anime,cuentos,ver"}>
+                title={`Linovels-Series`}
+                description={`Linovels-Series`}
+                keywords={"novelas,ligeras,anime,serie,capitulo,volumen,cuentos,ver"}>
             </SEO>
             <Row className='encabezado mx-0'>
                 <Col>
                     <div>
-                        <h1 className='text-center'>Linovels - Animes</h1>
+                        <h1 className='text-center'>Linovels - Series</h1>
                     </div>
                 </Col>
                 <Col className='col-4'>
                     <Form className="d-flex pt-2">
                         <Form.Control
                             onChange={handleInputChange}
-                            placeholder="Buscar anime"
+                            placeholder="Buscar serie"
                             aria-label="Search"
                         />
                     </Form>
                 </Col>
             </Row>
             <Container fluid>
-                <Row>
+                <Row >
                     {Data && Data.map((dato, index) => {
-                        return ((dato.anime.toLowerCase().includes(values.toLowerCase())) ? <Listado nombre={dato.anime} portada={dato.portada} key={index.toString()}></Listado> : false)
+                        return ((dato.serie.toLowerCase().includes(values.toLowerCase())) ? <Listado nombre={dato.serie} portada={dato.portada} key={index.toString()}></Listado> : false)
                     })}
                 </Row>
             </Container>
         </div>
     )
 }
-export default AnimesPage
+export default SeriesPage
 
 //<Link to="Overlord">Overlord</Link

@@ -1,10 +1,10 @@
 import { Container, Card, Tabs, Tab, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
-import Data from '../animes/animesData'
+import Data from '../series/seriesData'
 
 
-function Reproductor({ titulo, temporada, capitulo }) {
-    const filtrado = Data && Data.filter((filtro) => filtro.anime === titulo)
+function Reproductor({ titulo, capitulo }) {
+    const filtrado = Data && Data.filter((filtro) => filtro.serie === titulo)
     const previo = useNavigate()
     const indice = useNavigate()
     const siguiente = useNavigate()
@@ -12,7 +12,7 @@ function Reproductor({ titulo, temporada, capitulo }) {
     const previoHandleClick = () => {
         try{
             if (parseInt(capitulo) > 1) {
-                previo(`/animes/${titulo}/${temporada}/${parseInt(capitulo) - 1}`, { state: true })
+                previo(`/series/${titulo}/${parseInt(capitulo) - 1}`, { state: true })
             }
         }catch(e){
             console.log("error previo")
@@ -20,15 +20,15 @@ function Reproductor({ titulo, temporada, capitulo }) {
     }
     const siguienteHandleClick = () => {
         try{
-            siguiente(`/animes/${titulo}/${temporada}/${parseInt(capitulo) + 1}`, { state: true })    
+            siguiente(`/series/${titulo}/${parseInt(capitulo) + 1}`, { state: true })    
         }catch(e){
             console.log("error siguiente")
         }
-        siguiente(`/animes/${titulo}/${temporada}/${parseInt(capitulo) + 1}`, { state: true })
+        siguiente(`/series/${titulo}/${parseInt(capitulo) + 1}`, { state: true })
     }
     const indiceHandleClick = () => {
         try{
-            indice(`/animes/${titulo}`, { state: true })
+            indice(`/series/${titulo}`, { state: true })
         }catch(e){
             console.log("error indice")
         }
@@ -42,7 +42,11 @@ function Reproductor({ titulo, temporada, capitulo }) {
             title={titulo}
             frameborder="0"
             scrolling="no"
-            allowfullscreen=""
+            allowfullscreen="" 
+            webkitallowfullscreen="" 
+            mozallowfullscreen="" 
+            oallowfullscreen="" 
+            msallowfullscreen=""
             >
         </iframe>)
     }
@@ -53,7 +57,7 @@ function Reproductor({ titulo, temporada, capitulo }) {
                     return (
                         dato.temporada.map((dato) => {
                             return (
-                                (dato.ID === temporada) ? dato.capitulos.map((dato) => {
+                                dato.capitulos.map((dato) => {
                                     return (
                                         (dato.id === parseInt(capitulo)) ? dato.Links.map((Links, index) => {
                                             return (
@@ -76,7 +80,7 @@ function Reproductor({ titulo, temporada, capitulo }) {
                                             )
                                         }) :null
                                     )
-                                }) : null
+                                })
                             )
                         })
                     )

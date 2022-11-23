@@ -18,7 +18,7 @@ export function NavbarComponent() {
                 <Nav>
                     <NavLink className="nav-link px-3" to="./"><BiHomeHeart size='23px'/> Inicio</NavLink>
                     <NavLink className="nav-link px-3" to='./novelas'><BiBookHeart size='23px'/> Novelas</NavLink>
-                    <NavLink className="nav-link px-3" to='../animes'><BiMoviePlay size='23px'/> Animes</NavLink>
+                    <NavLink className="nav-link px-3" to='../series'><BiMoviePlay size='23px'/> Series</NavLink>
                     <NavLink className="nav-link px-3" to='./cuentos'><MdOutlineHistoryEdu size='23px'/> Cuentos</NavLink>
                 </Nav>
             </Navbar.Collapse>

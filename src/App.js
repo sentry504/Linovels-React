@@ -15,10 +15,10 @@ const Novelas= lazy(()=>import('./novelas/NovelasPage'));
 const NovelaPage= lazy(()=>import('./novelas/NovelaPage'));
 const Lector= lazy(()=>import('./novelas/Lector'));
 
-//Seccion animes
-const AnimesPage= lazy(()=>import('./animes/AnimesPage'));
-const AnimePage= lazy(()=>import('./animes/AnimePage'));
-const CapituloPage= lazy(()=>import('./animes/CapituloPage'));
+//Seccion series
+const SeriesPage= lazy(()=>import('./series/SeriesPage'));
+const SeriePage= lazy(()=>import('./series/SeriePage'));
+const CapituloPage= lazy(()=>import('./series/CapituloPage'));
 
 const NotFoundPage= lazy(()=>import('./pages/NotFoundPage'));
 
@@ -46,9 +46,9 @@ function App(){
                 <Route path='/novelas/:id/:doc' element= {<Lector/>} />
                 <Route path='/cuentos' element= {<CuentosPage/>} />
                 <Route path='/cuentos/:id' element= {<CuentoPage/>} />
-                <Route path='/animes' element= {<AnimesPage/>} />
-                <Route path='/animes/:id/' element= {<AnimePage/>} />
-                <Route path='/animes/:id/:temp/:cap' element= {<CapituloPage/>} />
+                <Route path='/series' element= {<SeriesPage/>} />
+                <Route path='/series/:id/' element= {<SeriePage/>} />
+                <Route path='/series/:id/:cap' element= {<CapituloPage/>} />
                 <Route path='*' element= {<NotFoundPage/>} />
             </Routes>
             </Suspense>
