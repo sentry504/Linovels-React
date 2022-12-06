@@ -1,6 +1,6 @@
 //Importacion del parametro establecido en la ruta de user/:id
 import { Container, Row, Col, Card, ListGroup, ListGroupItem } from 'react-bootstrap';
-import { BsCollectionPlay } from 'react-icons/bs'
+import { GiBookshelf } from 'react-icons/gi'
 import { Link, useParams } from 'react-router-dom'
 import SEO from '../components/SEO'
 import Data from './novelasData'
@@ -34,7 +34,7 @@ function NovelaPage() {
                                     </Row>
                                 </Container>
                             </Card>
-                            <h5 className='px-2 py-2' ><BsCollectionPlay size="20px" /><strong> VOLUMENES</strong> </h5>
+                            <h5 className='px-2 py-2' ><GiBookshelf size="25px" />VOLUMENES </h5>
                         </Card>
                         <ListGroup>
                             {dato.volumen.map((volumen, index) => {

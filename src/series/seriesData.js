@@ -5,7 +5,7 @@ const series=[
     {
         "serie" : "Overlord - Eventos CD",
         "portada" : Imagenes.Overlord.Overlodevents,
-        "info" : "", 
+        "info" : Imagenes.Overlord.Overlodevents, 
         "sinopsis" : "Historias a parte del anime, narradas con las voces de los actores de voz de la serie animada. Puedes seguir al creador de los videos y apoyar su canal - Overlord en Español, te dejo enlace del canal: https://www.youtube.com/c/OverlordEspa%C3%B1ol",
         "temporada" : [
             {
@@ -92,7 +92,7 @@ const series=[
     {
         "serie" : "Overlord",
         "portada" : Imagenes.Overlord.Overlod1,
-        "info" : Imagenes.Overlord.Overlod2, 
+        "info" : Imagenes.Overlord.Overlod1, 
         "sinopsis" : "La historia da comienzo cuando Yggdrasil, un popular juego online, es cerrado un día sin previo aviso. Sin embargo, el protagonista, Momonga, decide no salir del juego. Momonga así se transforma y se convierte en “el mago más poderoso”. El mundo sigue cambiando con él dentro, y los NPCs comienzan a sentir emociones. Sin familia, amigos ni lugar en la sociedad, Momonga tendrá que luchar por adaptarse al nuevo mundo en el que se ha convertido el juego.",
         "temporada" : [
             {
@@ -482,7 +482,7 @@ const series=[
         ]
     },
      //Overlord temporada 4
-     {
+    {
         "serie" : "Overlord IV",
         "portada" : Imagenes.Overlord.Overlod4,
         "info" : Imagenes.Overlord.Overlod4, 
@@ -852,7 +852,7 @@ const series=[
         ]
     },
      //Tensei Shitara Slime Datta Ken temporada 2 parte 1
-     {
+    {
         "serie" : "Tensei shitara Slime Datta Ken temporada 2 parte 1",
         "portada" : Imagenes.TenseiShittaraSlimeDattaKen.TenseiShittaraSlimeDattaKen2,
         "info" : Imagenes.TenseiShittaraSlimeDattaKen.TenseiShittaraSlimeDattaKen2, 
@@ -1425,7 +1425,861 @@ const series=[
             },
         ]
     },
-     //Fullmetal Alchemist Brotherhood
+    //Juego de tronos temporada III
+    {
+        "serie" : "Juego de Tronos Temporada III",
+        "portada" : Imagenes.JuegodeTronos.JuegoDeTronos3,
+        "info" :  Imagenes.JuegodeTronos.JuegoDeTronos3, 
+        "sinopsis" : 'Temporada III de Juego de Tronos',
+        "temporada" : [
+            {
+                "ID":"Capitulos 1-10", 
+                "capitulos":[
+                    {
+                        "id" : 1,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 2,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 3,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 4,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 5,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 6,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 7,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 8,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 9,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 10,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 11,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 12,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    }
+                ]
+            }
+        ]
+    },
+    //Juego de tronos temporada IV
+    {
+        "serie" : "Juego de Tronos Temporada IV",
+        "portada" : Imagenes.JuegodeTronos.JuegoDeTronos4,
+        "info" :  Imagenes.JuegodeTronos.JuegoDeTronos4, 
+        "sinopsis" : 'Temporada IV de Juego de Tronos',
+        "temporada" : [
+            {
+                "ID":"Capitulos 1-10", 
+                "capitulos":[
+                    {
+                        "id" : 1,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 2,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 3,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 4,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 5,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 6,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 7,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 8,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 9,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 10,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 11,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 12,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    }
+                ]
+            }
+        ]
+    },
+    //Juego de tronos temporada V
+    {
+        "serie" : "Juego de Tronos Temporada V",
+        "portada" : Imagenes.JuegodeTronos.JuegoDeTronos5,
+        "info" :  Imagenes.JuegodeTronos.JuegoDeTronos5, 
+        "sinopsis" : 'Temporada V de Juego de Tronos',
+        "temporada" : [
+            {
+                "ID":"Capitulos 1-10", 
+                "capitulos":[
+                    {
+                        "id" : 1,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 2,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 3,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 4,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 5,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 6,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 7,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 8,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 9,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 10,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 11,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 12,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    }
+                ]
+            }
+        ]
+    },
+    //Juego de tronos temporada VI
+    {
+        "serie" : "Juego de Tronos Temporada VI",
+        "portada" : Imagenes.JuegodeTronos.JuegoDeTronos6,
+        "info" :  Imagenes.JuegodeTronos.JuegoDeTronos6, 
+        "sinopsis" : 'Temporada VI de Juego de Tronos',
+        "temporada" : [
+            {
+                "ID":"Capitulos 1-10", 
+                "capitulos":[
+                    {
+                        "id" : 1,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 2,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 3,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 4,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 5,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 6,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 7,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 8,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 9,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 10,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 11,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 12,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    }
+                ]
+            }
+        ]
+    },
+    //Juego de tronos temporada VII
+    {
+        "serie" : "Juego de Tronos Temporada VII",
+        "portada" : Imagenes.JuegodeTronos.JuegoDeTronos7,
+        "info" :  Imagenes.JuegodeTronos.JuegoDeTronos7, 
+        "sinopsis" : 'Temporada VII de Juego de Tronos',
+        "temporada" : [
+            {
+                "ID":"Capitulos 1-10", 
+                "capitulos":[
+                    {
+                        "id" : 1,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 2,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 3,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 4,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 5,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 6,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 7,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 8,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 9,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 10,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 11,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 12,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    }
+                ]
+            }
+        ]
+    },
+    //Juego de tronos temporada VIII
+    {
+        "serie" : "Juego de Tronos Temporada VIII",
+        "portada" : Imagenes.JuegodeTronos.JuegoDeTronos8,
+        "info" :  Imagenes.JuegodeTronos.JuegoDeTronos8, 
+        "sinopsis" : 'Temporada VIII de Juego de Tronos',
+        "temporada" : [
+            {
+                "ID":"Capitulos 1-10", 
+                "capitulos":[
+                    {
+                        "id" : 1,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 2,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 3,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 4,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 5,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 6,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 7,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 8,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 9,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 10,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 11,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 12,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    }
+                ]
+            }
+        ]
+    },
+    //La casa del dragón
+    {
+        "serie" : "La casa del dragón",
+        "portada" : Imagenes.JuegodeTronos.CasaDelDragon,
+        "info" :  Imagenes.JuegodeTronos.CasaDelDragon, 
+        "sinopsis" : 'La serie precuela de Juego de Tronos titulada La Casa del Dragón se centra en la casa Targaryen, sólo que 200 años antes que los hechos narrados en la ficción original. La familia Targaryen escapó de la destrucción de Valyria para asentarse en Rocadragón, desde donde Aegon I conquistó Poniente. Los Targaryen son una de las grandes familias que gobernaron el Feudo Franco de Valyria. Para ganar sus batallas, criaron y entrenaron dragones para combatir, siempre bajo su escudo de un dragón de tres cabezas de gules que arroja llamas. Además de los Targaryen, se encuentra La Serpiente de Mar o conocido también como Lord Corlys Velaryon, el Señor de la Casa Velaryon, un linaje valyrio igual de antiguo con la Casa Targaryen y uno de los aventureros naúticos más famosos de la historia de Poniente. Pero todo Rey de Poniente tiene su fiel mano y ese es nada menos que Otto Hightower, que sirve con fidelidad y lealtad tanto a su rey como a su reino. Junto a él se encuentra Alicent Hightower, su hija y una de las mujeres más bellas de los Siete Reinos criada en la Fortaleza Roja.',
+        "temporada" : [
+            {
+                "ID":"Capitulos 1-10", 
+                "capitulos":[
+                    {
+                        "id" : 1,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 2,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 3,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 4,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 5,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 6,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 7,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 8,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 9,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 10,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 11,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    },
+                    {
+                        "id" : 12,
+                        "Links" : [{
+                            "server1" : "",
+                            "server2" : "",
+                            "server3" : "",
+                            "server4" : ""
+                        }]
+                    }
+                ]
+            }
+        ]
+    },
+    //Fullmetal Alchemist Brotherhood
      {
         "serie" : "Fullmetal Alchemist Brotherhood",
         "portada" : Imagenes.FullmetalAlchemistBrotherhoot.FullmetalAlchemistBrotherhoot1,
