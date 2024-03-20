@@ -33,7 +33,7 @@ function App() {
                         mode="bounce"
                         background="transparent"
                         speed="1"
-                        style={{ width: "600px", height: "600px" }}
+                        style={{ width: "300px", height: "300px" }}
                         loop
                         autoplay>
                     </lottie-player>

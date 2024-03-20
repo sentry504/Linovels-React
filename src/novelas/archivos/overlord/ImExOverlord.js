@@ -1,4 +1,4 @@
-import OverlordImg from './Overlord_Volume_16.webp'
+import OverlordImg from './Overlord4.jpg'
 import Prologo from './Overlord-Extras-Prologo.pdf'
 import Volumen1Alternativo from './Overlord-Extras-La-princesa-vampiro-del-pais-perdido.pdf'
 import ElEmisarioDelRey from './Overlord-Extras-ElEmisarioDelRey.pdf'

@@ -7,6 +7,15 @@ import IsekaiWaSmartphoneToTomoNi from './archivos/isekaiwasmartphonetotomoni/Im
 //Servidor streamtape genera errores en la URL
 const novelas=[
     {
+        "novela" : "Re: Monster",
+        "portada" : overlord.Img.OverlordImg,
+        "sinopsis" : `Después de anunciar que suspendería todos sus servicios, el juego de internet "Yggdrasil" apago sus servidores. Pero por alguna razón, un jugador no se desconectó automáticamente… Pero eso no fue todo, los NPC de su gremio cobraron vida… Es así como un joven normal, que amaba el videojuego Yggdrasil en el mundo real, fue transportado a un mundo alternativo junto con todo su gremio. Convirtiéndose como resultado en el mago más poderoso, Momonga, un no-muerto con la apariencia de un esqueleto. ¡Ahora él dirigirá a su gremio "Ainz Ooal Gown" hacia una aventura legendaria sin precedentes!`,
+        "tags" :['isekai','ficcion','superpoderes'],
+        "volumen" : [
+            {"link" : overlord.PDF.Prologo,"title": 'Extras - Prologo'}
+        ]
+    },
+    {
         "novela" : "Overlord",
         "portada" : overlord.Img.OverlordImg,
         "sinopsis" : `Después de anunciar que suspendería todos sus servicios, el juego de internet "Yggdrasil" apago sus servidores. Pero por alguna razón, un jugador no se desconectó automáticamente… Pero eso no fue todo, los NPC de su gremio cobraron vida… Es así como un joven normal, que amaba el videojuego Yggdrasil en el mundo real, fue transportado a un mundo alternativo junto con todo su gremio. Convirtiéndose como resultado en el mago más poderoso, Momonga, un no-muerto con la apariencia de un esqueleto. ¡Ahora él dirigirá a su gremio "Ainz Ooal Gown" hacia una aventura legendaria sin precedentes!`,

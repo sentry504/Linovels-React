@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "DESKTOP-RQ82DS2\\SQLEXPRESS",
+            "driver": "MSSQL",
+            "database": "linovels",
+            "username": "qua",
+            "name": "linovels",
+            "connectString": "Data Source=.\\\\SQLEXPRESS;Initial Catalog=linovels;Trusted_Connection=true;TrustServerCertificate=true;User Id=qua;Password=Carmila22dejunio",
+            "connectionTimeout": 2000
+        }
+    ]
+}

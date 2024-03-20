@@ -23,6 +23,13 @@ function HomePage() {
                     <div className='dos cuentos'></div>
                     <h2 className='encabezado'>Encuentra cuentos populares de Oriente.</h2>
                 </section>
+                <section className='promotores'>
+                    <h4 className='encabezado'>
+                        <a href='https://brandexsourcing.com/'>
+                            Brandex Sourcing is a leading apparel manufacturer company based in Bangladesh.
+                        </a>
+                    </h4>
+                </section>
             </div>
             
         </main>
